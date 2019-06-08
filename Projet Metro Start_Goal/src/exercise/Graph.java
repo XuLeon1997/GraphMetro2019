@@ -357,25 +357,7 @@ public  class Graph<V extends Comparable<V>> {
 //    	}while(!BFS.isEmpty() && flagEnd);
 //        return (ArrayList<V>) vu;
     }
-    
-    public int diametre(Graph G){
-    	int[] arrayShortestPaths=new int[G.adjacency.size()];
-    	
-        int i=;
-        for (String entree : adjacency.keySet()){
-            for (String sortie:adjacency.keySet()){
-			    int pathDistance = bfsShortestPath( G,entree,sortie).size();
-			    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
-            }
-        }
-		System.out.println(Arrays.toString(arrayShortestPaths));
-		int diameter=0;
-        for(Integer integer: min){
-            diameter = diameter < integer ? diameter :integer;
-        }
-        return diameter;
 
-}
 
     
 	// TODO: Implement this function, parametrized by the type of vertex V, to do
@@ -462,7 +444,6 @@ public  class Graph<V extends Comparable<V>> {
 		}
 		System.out.println(Arrays.toString(arrayShortestPaths));
 		int diameter=0;
-
 		for (int ShortestPath :arrayShortestPaths ) {
 			if (ShortestPath > diameter) diameter=ShortestPath;
 	    }
