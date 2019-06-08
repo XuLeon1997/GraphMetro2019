@@ -2,6 +2,7 @@ package exercise;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -75,14 +76,7 @@ public  class Graph<V extends Comparable<V>> {
 		List<Edge<String>> te = adjacency.get(t);
 		if(!te.contains(s)) te.add(new Edge<>(t,s,time_travel));
 
-//		for (String  vertex : this.vertices()) {
-//			System.out.print(vertex.toString() + " -> ");
-//			// TODO: iterate over the neighbors of each vertex v and print them out.
-//			for (String  neighbour : this.outNeighbors(vertex)) {
-//				System.out.print(neighbour.toString() + " ");
-//			}
-//			System.out.println();
-//		}
+
 		
 	}
 	/**
@@ -244,12 +238,12 @@ public  class Graph<V extends Comparable<V>> {
 			neighbors.remove(v);
 			if(v.equals(goal)) {
 				out.add(v);
-				System.out.println("Destination trouvé : "+v);
+//				System.out.println("Destination trouvé : "+v);
 				flag=false;
 			}else if(!out.contains(v)){
 				flag=dfs(g,v,goal,out);
 			}else if(out.contains(v)){
-				System.out.println("Chemin déjà par couru : "+ v);
+//				System.out.println("Chemin déjà par couru : "+ v);
 			}else {
 				return flag=false;
 			}
@@ -267,8 +261,10 @@ public  class Graph<V extends Comparable<V>> {
 	private static Map<String, String> prev = new HashMap<>();
 	
     public static<V extends Comparable<V>> List<String> bfsShortestPath(Graph<V> G, String startPoint, String goalPoint){
-    	List<String> directions =new LinkedList();
-    	Queue<String> q = new LinkedList();
+    	vis.clear();
+    	prev.clear();
+    	List<String> directions =new LinkedList<>();
+    	Queue<String> q = new LinkedList<>();
     	String current = startPoint;
     	q.add(current);
     	vis.put(current,true);
@@ -287,7 +283,7 @@ public  class Graph<V extends Comparable<V>> {
     				if (!vis.containsKey(adj))
     				{
     					q.add(adj);
-    					System.out.println(G.adjacency.get(current).get(y).to());
+//    					System.out.println(G.adjacency.get(current).get(y).to());
     					vis.put(adj, true);
     					prev.put(adj,current);
     				}
@@ -299,8 +295,16 @@ public  class Graph<V extends Comparable<V>> {
     	}
     	if (!current.equals(goalPoint))
     	{
+    		System.out.println("Start : " +startPoint+" 	Goal : "+ goalPoint);
+    		System.out.println(vis.size());
     		System.out.println("on ne peut pas atteindre la destination : current = " + current + " / Goal Point : "+goalPoint);
+    		System.out.println("current voisin = " + G.adjacency.get(current).size());
+    		System.out.println("current voisin 0 = " +G.adjacency.get(current).get(0).to());
+    		System.out.println("current voisin deja vu = " + vis.containsKey(G.adjacency.get(current).get(0).to()));
+
+    		
     	}
+    	
     	for (String stop = goalPoint; stop!=null; stop=prev.get(stop))
     	{
     		directions.add(stop);
@@ -354,7 +358,24 @@ public  class Graph<V extends Comparable<V>> {
 //        return (ArrayList<V>) vu;
     }
     
-	
+    public int diametre(Graph G){
+    	int[] arrayShortestPaths=new int[G.adjacency.size()];
+    	
+        int i=;
+        for (String entree : adjacency.keySet()){
+            for (String sortie:adjacency.keySet()){
+			    int pathDistance = bfsShortestPath( G,entree,sortie).size();
+			    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
+            }
+        }
+		System.out.println(Arrays.toString(arrayShortestPaths));
+		int diameter=0;
+        for(Integer integer: min){
+            diameter = diameter < integer ? diameter :integer;
+        }
+        return diameter;
+
+}
 
     
 	// TODO: Implement this function, parametrized by the type of vertex V, to do
@@ -371,15 +392,15 @@ public  class Graph<V extends Comparable<V>> {
 		// An unchecked type cast is needed.
 		Graph<V>  g = (Graph<V> ) GraphFactory.createDiGraphFromTextFileAuto(filename);
 
-//		System.out.println("Graph structure: (node -> [<out_neighgbor>])");
-//		for (String  vertex : g.vertices()) {
-//			System.out.print(vertex.toString() + " -> ");
-//			// TODO: iterate over the neighbors of each vertex v and print them out.
-//			for (String  neighbour : g.outNeighbors(vertex)) {
-//				System.out.print(neighbour.toString() + " ");
-//			}
-//			System.out.println();
-//		}
+		System.out.println("Graph structure: (node -> [<out_neighgbor>])");
+		for (String  vertex : g.vertices()) {
+			System.out.print(vertex.toString() + " -> ");
+			// TODO: iterate over the neighbors of each vertex v and print them out.
+			for (String  neighbour : g.outNeighbors(vertex)) {
+				System.out.print(neighbour.toString() + " ");
+			}
+			System.out.println();
+		}
 
 		System.out.println();
 
@@ -389,9 +410,9 @@ public  class Graph<V extends Comparable<V>> {
 		// TODO: Print the size of the graph, generically.
 		//System.out.println("Size: " + g.size() );
 
-		// TODO: Print the connectedness of the graph, generically.
-		System.out.println("Connected: " + g.isConnected() );
-
+//		// TODO: Print the connectedness of the graph, generically.
+//		System.out.println("Connected: " + g.isConnected() );
+//
 //		// TODO: Execute a DFS of the graph, generically, and print the resulting list
 //		// of nodes, generically.
 //		List<V>  dfsList =  dfs(g, bfsStartNode, bfsGoalNode);
@@ -407,24 +428,31 @@ public  class Graph<V extends Comparable<V>> {
 		List<String>  bfsList = bfsShortestPath(g , (String)bfsStartNode, (String) bfsGoalNode);
 		System.out.println("BFS result:");
 		// TODO: Iterate and print each node in the DFS result list
-		//System.out.println(bfsList.get(1));
 		System.out.println(bfsList.toString());
-//		for (V  bfsNode : bfsList) {
-//			System.out.print(bfsNode. + " ");République
-//		}
+		
 		System.out.println("\n------------------------------\n");
 		
 		
-	    int diameter=Integer.MAX_VALUE;
-	    int radius=g.adjacency.size();
-	    int excentricity=0;
-	    int[] arrayShortestPaths=new int[g.adjacency.size()];
+
+
+//		System.out.println("Diameter : " + g.diametre(g));
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	    	    int[] arrayShortestPaths=new int[g.adjacency.size()];
 	    int i=0;
-		for(Entry<String, List<Edge<String>>>  entry : g.adjacency.entrySet()) {
-		    String keyE = entry.getKey();
+	    for (String entree : g.adjacency.keySet()){
+		    String keyE = entree;
 		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
-			for(Entry<String, List<Edge<String>>>  sortie : g.adjacency.entrySet()) {
-			    String keyS = sortie.getKey();
+		    for (String sortie:g.adjacency.keySet()){
+			    String keyS = sortie;
 			    if(keyE!=keyS) {
 				    int pathDistance = Graph.bfsShortestPath(g, keyE, keyS).size();
 				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
@@ -432,20 +460,20 @@ public  class Graph<V extends Comparable<V>> {
 			}
 			i++;
 		}
-		
+		System.out.println(Arrays.toString(arrayShortestPaths));
+		int diameter=0;
+
 		for (int ShortestPath :arrayShortestPaths ) {
-			if (ShortestPath < diameter) diameter=ShortestPath;
+			if (ShortestPath > diameter) diameter=ShortestPath;
 	    }
 		
 		System.out.println("Diameter : " + diameter);
-		
-		
 	}
 
 	public static void main(String[] args) {
 		
 		// Calls processDigraph for Integer
-		processDigraph("République Metro 8", "Bastille Metro 8", "final2.txt");
+		processDigraph("République Metro 8", "Bastille Metro 8", "final3.txt");
 
 	}
 }
