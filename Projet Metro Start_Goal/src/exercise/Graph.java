@@ -406,6 +406,27 @@ public  class Graph<V extends Comparable<V>> {
 		System.out.println("BFS result:");
 		// TODO: Iterate and print each node in the DFS result list
 		System.out.println(bfsList.toString());
+		//*********************
+		//CALCUL DISTANCE TOTAL
+		//*********************
+		
+		double distanceTot=0;
+		String currentPoint=null;
+		for(String vertice : bfsList) {
+			if(currentPoint != null) {
+				for(int i =0;i<g.adjacency.get(currentPoint).size();i++) {
+					if (g.adjacency.get(currentPoint).get(i).to()==vertice) {
+						distanceTot+=g.adjacency.get(currentPoint).get(i).distanceTravel();
+						break;
+					}
+				}
+				
+			}
+			currentPoint=vertice;
+		}
+		System.out.println("Travel total distance : "+distanceTot+"Km");
+		
+		
 		
 		System.out.println("\n------------------------------\n");
 		
@@ -416,29 +437,29 @@ public  class Graph<V extends Comparable<V>> {
 	
 		
 		
-	    int[] arrayShortestPaths=new int[g.adjacency.size()];
-	    int i=0;
-	    for (String entree : g.adjacency.keySet()){
-		    String keyE = entree;
-		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
-		    for (String sortie:g.adjacency.keySet()){
-			    String keyS = sortie;
-			    if(keyE!=keyS) {
-				    int pathDistance = Graph.bfsShortestPath(g, keyE, keyS).size();
-				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
-			    }
-			}
-			i++;
-		}
-	    
-	    
-		System.out.println(Arrays.toString(arrayShortestPaths));
-		int diameter=0;
-		for (int ShortestPath :arrayShortestPaths ) {
-			if (ShortestPath > diameter) diameter=ShortestPath;
-	    }
-		
-		System.out.println("Diameter : " + diameter);
+//	    int[] arrayShortestPaths=new int[g.adjacency.size()];
+//	    int i=0;
+//	    for (String entree : g.adjacency.keySet()){
+//		    String keyE = entree;
+//		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
+//		    for (String sortie:g.adjacency.keySet()){
+//			    String keyS = sortie;
+//			    if(keyE!=keyS) {
+//				    int pathDistance = Graph.bfsShortestPath(g, keyE, keyS).size();
+//				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
+//			    }
+//			}
+//			i++;
+//		}
+//	    
+//	    
+//		System.out.println(Arrays.toString(arrayShortestPaths));
+//		int diameter=0;
+//		for (int ShortestPath :arrayShortestPaths ) {
+//			if (ShortestPath > diameter) diameter=ShortestPath;
+//	    }
+//		
+//		System.out.println("Diameter : " + diameter);
 	}
 
 	public static void main(String[] args) {
