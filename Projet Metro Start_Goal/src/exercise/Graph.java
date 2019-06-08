@@ -60,11 +60,8 @@ public  class Graph<V extends Comparable<V>> {
 		return m;
 	}
 
-	/**
-	 * Adds the corresponding vertex if needed
-	 * @param e
-	 */
-	public void addEdge(String s, String t, int time_travel) {
+
+	public void addEdge(String s, String t, double distance_travel) {
 		m++;		
 		if(!adjacency.containsKey(s))
 			addVertex(s);
@@ -72,12 +69,10 @@ public  class Graph<V extends Comparable<V>> {
 			addVertex(t);
 		
 		List<Edge<String>> se = adjacency.get(s);
-		if(!se.contains(t)) se.add(new Edge<>(s,t,time_travel));
+		if(!se.contains(t)) se.add(new Edge<>(s,t,distance_travel));
 		List<Edge<String>> te = adjacency.get(t);
-		if(!te.contains(s)) te.add(new Edge<>(t,s,time_travel));
+		if(!te.contains(s)) te.add(new Edge<>(t,s,distance_travel));
 
-
-		
 	}
 	/**
 	 * Adds a vertex to the graph. On success n is increased
@@ -421,14 +416,7 @@ public  class Graph<V extends Comparable<V>> {
 	
 		
 		
-		
-		
-		
-		
-		
-		
-		
-	    	    int[] arrayShortestPaths=new int[g.adjacency.size()];
+	    int[] arrayShortestPaths=new int[g.adjacency.size()];
 	    int i=0;
 	    for (String entree : g.adjacency.keySet()){
 		    String keyE = entree;
@@ -442,6 +430,8 @@ public  class Graph<V extends Comparable<V>> {
 			}
 			i++;
 		}
+	    
+	    
 		System.out.println(Arrays.toString(arrayShortestPaths));
 		int diameter=0;
 		for (int ShortestPath :arrayShortestPaths ) {
@@ -457,4 +447,6 @@ public  class Graph<V extends Comparable<V>> {
 		processDigraph("République Metro 8", "Bastille Metro 8", "final3.txt");
 
 	}
+
+
 }

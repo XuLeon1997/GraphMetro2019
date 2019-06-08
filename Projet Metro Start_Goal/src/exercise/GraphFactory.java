@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GraphFactory {
 
 	public static Graph<? extends Comparable<?>>  createDiGraphFromTextFileAuto(String path) {
-		Graph<String> gString = new Graph(); // construct it
+		Graph<String> gString = new Graph<>(); // construct it
 
 		try (Scanner scan = new Scanner(FileSystems.getDefault().getPath(path))) {
 			while (scan.hasNextLine()) {
@@ -16,8 +16,8 @@ public class GraphFactory {
 				String[] ligne=scan.nextLine().split(",");
 				String u = ligne[0]; // read the from vertex
 				String v = ligne[1]; // read the to vertex
-				int time_travel = 1;//Integer.parseInt(ligne[2]);
-				gString.addEdge(u, v, time_travel); // add the edge
+				double distance_travel = Double.parseDouble(ligne[2]);
+				gString.addEdge(u, v, distance_travel); // add the edge
 			}
 
 		} catch (IOException e) {
