@@ -1,0 +1,1110 @@
+Château de Vincennes Metro 1,Bérault Metro 1,2
+Bérault Metro 1,Saint-Mandé Metro 1,1
+Saint-Mandé Metro 1,Porte de Vincennes Metro 1,2
+Porte de Vincennes Metro 1,Nation Metro 1,1
+Nation Metro 1,Reuilly-Diderot Metro 1,2
+Reuilly-Diderot Metro 1,Gare de Lyon Metro 1,2
+Gare de Lyon Metro 1,Bastille Metro 1,2
+Bastille Metro 1,Saint-Paul (Le Marais) Metro 1,2
+Saint-Paul (Le Marais) Metro 1,Hôtel de Ville Metro 1,2
+Hôtel de Ville Metro 1,Châtelet Metro 1,1
+Châtelet Metro 1,Louvre-Rivoli Metro 1,1
+Louvre-Rivoli Metro 1,Palais-Royal (Musée du Louvre) Metro 1,1
+Palais-Royal (Musée du Louvre) Metro 1,Tuileries Metro 1,1
+Tuileries Metro 1,Concorde Metro 1,2
+Concorde Metro 1,Champs-Elysées-Clémenceau Metro 1,1
+Champs-Elysées-Clémenceau Metro 1,Franklin-Roosevelt Metro 1,2
+Franklin-Roosevelt Metro 1,George V Metro 1,1
+George V Metro 1,Charles de Gaulle-Etoile Metro 1,1
+Charles de Gaulle-Etoile Metro 1,Argentine Metro 1,2
+Argentine Metro 1,Porte Maillot Metro 1,1
+Porte Maillot Metro 1,Les Sablons (Jardin d'acclimatation) Metro 1,2
+Les Sablons (Jardin d'acclimatation) Metro 1,Pont de Neuilly Metro 1,2
+Pont de Neuilly Metro 1,Esplanade de la Défense Metro 1,1
+Esplanade de la Défense Metro 1,La Défense (Grande Arche) Metro 1,3
+La Défense (Grande Arche) Metro 1,Esplanade de la Défense Metro 1,2
+Esplanade de la Défense Metro 1,Pont de Neuilly Metro 1,1
+Pont de Neuilly Metro 1,Les Sablons (Jardin d'acclimatation) Metro 1,2
+Les Sablons (Jardin d'acclimatation) Metro 1,Porte Maillot Metro 1,1
+Porte Maillot Metro 1,Argentine Metro 1,2
+Argentine Metro 1,Charles de Gaulle-Etoile Metro 1,1
+Charles de Gaulle-Etoile Metro 1,George V Metro 1,2
+George V Metro 1,Franklin-Roosevelt Metro 1,1
+Franklin-Roosevelt Metro 1,Champs-Elysées-Clémenceau Metro 1,1
+Champs-Elysées-Clémenceau Metro 1,Concorde Metro 1,2
+Concorde Metro 1,Tuileries Metro 1,1
+Tuileries Metro 1,Palais-Royal (Musée du Louvre) Metro 1,1
+Palais-Royal (Musée du Louvre) Metro 1,Louvre-Rivoli Metro 1,1
+Louvre-Rivoli Metro 1,Châtelet Metro 1,2
+Châtelet Metro 1,Hôtel de Ville Metro 1,1
+Hôtel de Ville Metro 1,Saint-Paul (Le Marais) Metro 1,2
+Saint-Paul (Le Marais) Metro 1,Bastille Metro 1,2
+Bastille Metro 1,Gare de Lyon Metro 1,2
+Gare de Lyon Metro 1,Reuilly-Diderot Metro 1,2
+Reuilly-Diderot Metro 1,Nation Metro 1,1
+Nation Metro 1,Porte de Vincennes Metro 1,2
+Porte de Vincennes Metro 1,Saint-Mandé Metro 1,2
+Saint-Mandé Metro 1,Bérault Metro 1,1
+Bérault Metro 1,Château de Vincennes Metro 1,2
+Boulogne Pont de Saint-Cloud Metro 10,Boulogne-Jean-Jaurès Metro 10,2
+Boulogne-Jean-Jaurès Metro 10,Michel-Ange-Molitor Metro 10,3
+Michel-Ange-Molitor Metro 10,Chardon-Lagache Metro 10,1
+Chardon-Lagache Metro 10,Mirabeau Metro 10,1
+Mirabeau Metro 10,Javel-André-Citroen Metro 10,1
+Javel-André-Citroen Metro 10,Charles Michels Metro 10,2
+Charles Michels Metro 10,Avenue Emile-Zola Metro 10,1
+Avenue Emile-Zola Metro 10,La Motte-Picquet-Grenelle Metro 10,2
+La Motte-Picquet-Grenelle Metro 10,Ségur Metro 10,1
+Ségur Metro 10,Duroc Metro 10,2
+Duroc Metro 10,Vaneau Metro 10,1
+Vaneau Metro 10,Sèvres-Babylone Metro 10,1
+Sèvres-Babylone Metro 10,Mabillon Metro 10,2
+Mabillon Metro 10,Odéon Metro 10,1
+Odéon Metro 10,Cluny-La Sorbonne Metro 10,1
+Cluny-La Sorbonne Metro 10,Maubert-Mutualité Metro 10,1
+Maubert-Mutualité Metro 10,Cardinal-Lemoine Metro 10,2
+Cardinal-Lemoine Metro 10,Jussieu Metro 10,1
+Jussieu Metro 10,Gare d'Austerlitz Metro 10,3
+Gare d'Austerlitz Metro 10,Jussieu Metro 10,2
+Jussieu Metro 10,Cardinal-Lemoine Metro 10,1
+Cardinal-Lemoine Metro 10,Maubert-Mutualité Metro 10,1
+Maubert-Mutualité Metro 10,Cluny-La Sorbonne Metro 10,1
+Cluny-La Sorbonne Metro 10,Odéon Metro 10,1
+Odéon Metro 10,Mabillon Metro 10,2
+Mabillon Metro 10,Sèvres-Babylone Metro 10,1
+Sèvres-Babylone Metro 10,Vaneau Metro 10,1
+Vaneau Metro 10,Duroc Metro 10,2
+Duroc Metro 10,Ségur Metro 10,1
+Ségur Metro 10,La Motte-Picquet-Grenelle Metro 10,2
+La Motte-Picquet-Grenelle Metro 10,Avenue Emile-Zola Metro 10,1
+Avenue Emile-Zola Metro 10,Charles Michels Metro 10,2
+Charles Michels Metro 10,Javel-André-Citroen Metro 10,1
+Javel-André-Citroen Metro 10,Eglise d'Auteuil Metro 10,2
+Eglise d'Auteuil Metro 10,Michel-Ange-Auteuil Metro 10,1
+Michel-Ange-Auteuil Metro 10,Porte d'Auteuil Metro 10,2
+Porte d'Auteuil Metro 10,Boulogne-Jean-Jaurès Metro 10,2
+Boulogne-Jean-Jaurès Metro 10,Boulogne Pont de Saint-Cloud Metro 10,3
+Mairie des Lilas Metro 11,Porte des Lilas Metro 11,2
+Porte des Lilas Metro 11,Télégraphe Metro 11,1
+Télégraphe Metro 11,Place des Fêtes Metro 11,1
+Place des Fêtes Metro 11,Jourdain Metro 11,1
+Jourdain Metro 11,Pyrénées Metro 11,1
+Pyrénées Metro 11,Belleville Metro 11,2
+Belleville Metro 11,Goncourt (Hôpital Saint-Louis) Metro 11,1
+Goncourt (Hôpital Saint-Louis) Metro 11,République Metro 11,1
+République Metro 11,Arts-et-Métiers Metro 11,1
+Arts-et-Métiers Metro 11,Rambuteau Metro 11,2
+Rambuteau Metro 11,Hôtel de Ville Metro 11,1
+Hôtel de Ville Metro 11,Châtelet Metro 11,1
+Châtelet Metro 11,Hôtel de Ville Metro 11,1
+Hôtel de Ville Metro 11,Rambuteau Metro 11,2
+Rambuteau Metro 11,Arts-et-Métiers Metro 11,1
+Arts-et-Métiers Metro 11,République Metro 11,1
+République Metro 11,Goncourt (Hôpital Saint-Louis) Metro 11,2
+Goncourt (Hôpital Saint-Louis) Metro 11,Belleville Metro 11,1
+Belleville Metro 11,Pyrénées Metro 11,1
+Pyrénées Metro 11,Jourdain Metro 11,1
+Jourdain Metro 11,Place des Fêtes Metro 11,1
+Place des Fêtes Metro 11,Télégraphe Metro 11,2
+Télégraphe Metro 11,Porte des Lilas Metro 11,1
+Porte des Lilas Metro 11,Mairie des Lilas Metro 11,2
+Mairie d'Issy Metro 12,Corentin-Celton Metro 12,2
+Corentin-Celton Metro 12,Porte de Versailles Metro 12,1
+Porte de Versailles Metro 12,Convention Metro 12,2
+Convention Metro 12,Vaugirard (Adolphe Chérioux) Metro 12,1
+Vaugirard (Adolphe Chérioux) Metro 12,Volontaires Metro 12,2
+Volontaires Metro 12,Pasteur Metro 12,1
+Pasteur Metro 12,Falguière Metro 12,1
+Falguière Metro 12,Montparnasse-Bienvenue Metro 12,1
+Montparnasse-Bienvenue Metro 12,Notre-Dame des Champs Metro 12,2
+Notre-Dame des Champs Metro 12,Rennes Metro 12,1
+Rennes Metro 12,Sèvres-Babylone Metro 12,1
+Sèvres-Babylone Metro 12,Rue du Bac Metro 12,1
+Rue du Bac Metro 12,Solférino Metro 12,1
+Solférino Metro 12,Assemblée Nationale Metro 12,1
+Assemblée Nationale Metro 12,Concorde Metro 12,2
+Concorde Metro 12,Madeleine Metro 12,1
+Madeleine Metro 12,Saint-Lazare Metro 12,2
+Saint-Lazare Metro 12,Trinité-d'Estienne d'Orves Metro 12,1
+Trinité-d'Estienne d'Orves Metro 12,Notre-Dame de Lorette Metro 12,1
+Notre-Dame de Lorette Metro 12,Saint-Georges Metro 12,2
+Saint-Georges Metro 12,Pigalle Metro 12,1
+Pigalle Metro 12,Abbesses Metro 12,1
+Abbesses Metro 12,Lamarck-Caulaincourt Metro 12,1
+Lamarck-Caulaincourt Metro 12,Jules Joffrin Metro 12,2
+Jules Joffrin Metro 12,Marcadet-Poissonniers Metro 12,1
+Marcadet-Poissonniers Metro 12,Marx-Dormoy Metro 12,2
+Marx-Dormoy Metro 12,Porte de la Chapelle Metro 12,2
+Porte de la Chapelle Metro 12,Front Populaire Metro 12,2
+Front Populaire Metro 12,Porte de la Chapelle Metro 12,3
+Porte de la Chapelle Metro 12,Marx-Dormoy Metro 12,1
+Marx-Dormoy Metro 12,Marcadet-Poissonniers Metro 12,2
+Marcadet-Poissonniers Metro 12,Jules Joffrin Metro 12,1
+Jules Joffrin Metro 12,Lamarck-Caulaincourt Metro 12,2
+Lamarck-Caulaincourt Metro 12,Abbesses Metro 12,1
+Abbesses Metro 12,Pigalle Metro 12,1
+Pigalle Metro 12,Saint-Georges Metro 12,1
+Saint-Georges Metro 12,Notre-Dame de Lorette Metro 12,1
+Notre-Dame de Lorette Metro 12,Trinité-d'Estienne d'Orves Metro 12,2
+Trinité-d'Estienne d'Orves Metro 12,Saint-Lazare Metro 12,1
+Saint-Lazare Metro 12,Madeleine Metro 12,2
+Madeleine Metro 12,Concorde Metro 12,1
+Concorde Metro 12,Assemblée Nationale Metro 12,2
+Assemblée Nationale Metro 12,Solférino Metro 12,1
+Solférino Metro 12,Rue du Bac Metro 12,1
+Rue du Bac Metro 12,Sèvres-Babylone Metro 12,1
+Sèvres-Babylone Metro 12,Rennes Metro 12,1
+Rennes Metro 12,Notre-Dame des Champs Metro 12,1
+Notre-Dame des Champs Metro 12,Montparnasse-Bienvenue Metro 12,2
+Montparnasse-Bienvenue Metro 12,Falguière Metro 12,1
+Falguière Metro 12,Pasteur Metro 12,1
+Pasteur Metro 12,Volontaires Metro 12,1
+Volontaires Metro 12,Vaugirard (Adolphe Chérioux) Metro 12,1
+Vaugirard (Adolphe Chérioux) Metro 12,Convention Metro 12,2
+Convention Metro 12,Porte de Versailles Metro 12,1
+Porte de Versailles Metro 12,Corentin-Celton Metro 12,2
+Corentin-Celton Metro 12,Mairie d'Issy Metro 12,1
+Châtillon Montrouge Metro 13,Malakoff-Rue Etienne Dolet Metro 13,2
+Malakoff-Rue Etienne Dolet Metro 13,Malakoff-Plateau de Vanves Metro 13,1
+Malakoff-Plateau de Vanves Metro 13,Porte de Vanves Metro 13,2
+Porte de Vanves Metro 13,Plaisance Metro 13,2
+Plaisance Metro 13,Pernety Metro 13,1
+Pernety Metro 13,Gaîté Metro 13,1
+Gaîté Metro 13,Montparnasse-Bienvenue Metro 13,2
+Montparnasse-Bienvenue Metro 13,Duroc Metro 13,1
+Duroc Metro 13,Saint-François-Xavier Metro 13,1
+Saint-François-Xavier Metro 13,Varenne Metro 13,2
+Varenne Metro 13,Invalides Metro 13,1
+Invalides Metro 13,Champs-Elysées-Clémenceau Metro 13,1
+Champs-Elysées-Clémenceau Metro 13,Miromesnil Metro 13,2
+Miromesnil Metro 13,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 13,Liège Metro 13,2
+Liège Metro 13,Place de Clichy Metro 13,1
+Place de Clichy Metro 13,La Fourche Metro 13,1
+La Fourche Metro 13,Brochant Metro 13,2
+Brochant Metro 13,Porte de Clichy Metro 13,2
+Porte de Clichy Metro 13,Mairie de Clichy Metro 13,1
+Mairie de Clichy Metro 13,Gabriel-Péri Metro 13,3
+Gabriel-Péri Metro 13,Les Agnettes Metro 13,2
+Les Agnettes Metro 13,Asnières-Gennevilliers Les Courtilles Metro 13,2
+Asnières-Gennevilliers Les Courtilles Metro 13,Guy-Môquet Metro 13,2
+Guy-Môquet Metro 13,Porte de Saint-Ouen Metro 13,1
+Porte de Saint-Ouen Metro 13,Garibaldi Metro 13,2
+Garibaldi Metro 13,Mairie de Saint-Ouen Metro 13,2
+Mairie de Saint-Ouen Metro 13,Carrefour-Pleyel Metro 13,2
+Carrefour-Pleyel Metro 13,Saint-Denis - Porte de Paris Metro 13,2
+Saint-Denis - Porte de Paris Metro 13,Basilique de Saint-Denis Metro 13,2
+Basilique de Saint-Denis Metro 13,Saint-Denis-Université Metro 13,2
+Asnières-Gennevilliers Les Courtilles Metro 13,Les Agnettes Metro 13,1
+Les Agnettes Metro 13,Gabriel-Péri Metro 13,2
+Gabriel-Péri Metro 13,Mairie de Clichy Metro 13,3
+Mairie de Clichy Metro 13,Porte de Clichy Metro 13,2
+Porte de Clichy Metro 13,Brochant Metro 13,2
+Brochant Metro 13,La Fourche Metro 13,1
+La Fourche Metro 13,Place de Clichy Metro 13,1
+Place de Clichy Metro 13,Liège Metro 13,2
+Liège Metro 13,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 13,Miromesnil Metro 13,2
+Miromesnil Metro 13,Champs-Elysées-Clémenceau Metro 13,1
+Champs-Elysées-Clémenceau Metro 13,Invalides Metro 13,2
+Invalides Metro 13,Varenne Metro 13,1
+Varenne Metro 13,Saint-François-Xavier Metro 13,2
+Saint-François-Xavier Metro 13,Duroc Metro 13,1
+Duroc Metro 13,Montparnasse-Bienvenue Metro 13,1
+Montparnasse-Bienvenue Metro 13,Gaîté Metro 13,2
+Gaîté Metro 13,Pernety Metro 13,1
+Pernety Metro 13,Plaisance Metro 13,1
+Plaisance Metro 13,Porte de Vanves Metro 13,2
+Porte de Vanves Metro 13,Malakoff-Plateau de Vanves Metro 13,1
+Malakoff-Plateau de Vanves Metro 13,Malakoff-Rue Etienne Dolet Metro 13,2
+Malakoff-Rue Etienne Dolet Metro 13,Châtillon Montrouge Metro 13,2
+Saint-Denis-Université Metro 13,Basilique de Saint-Denis Metro 13,2
+Basilique de Saint-Denis Metro 13,Saint-Denis - Porte de Paris Metro 13,1
+Saint-Denis - Porte de Paris Metro 13,Carrefour-Pleyel Metro 13,3
+Carrefour-Pleyel Metro 13,Mairie de Saint-Ouen Metro 13,2
+Mairie de Saint-Ouen Metro 13,Garibaldi Metro 13,1
+Garibaldi Metro 13,Porte de Saint-Ouen Metro 13,2
+Porte de Saint-Ouen Metro 13,Guy-Môquet Metro 13,1
+Saint-Lazare Metro 14,Madeleine Metro 14,1
+Madeleine Metro 14,Pyramides Metro 14,2
+Pyramides Metro 14,Châtelet Metro 14,2
+Châtelet Metro 14,Gare de Lyon Metro 14,3
+Gare de Lyon Metro 14,Bercy Metro 14,2
+Bercy Metro 14,Cour Saint-Emilion Metro 14,1
+Cour Saint-Emilion Metro 14,Bibliothèque-François Mitterrand Metro 14,2
+Bibliothèque-François Mitterrand Metro 14,Olympiades Metro 14,2
+Olympiades Metro 14,Bibliothèque-François Mitterrand Metro 14,1
+Bibliothèque-François Mitterrand Metro 14,Cour Saint-Emilion Metro 14,2
+Cour Saint-Emilion Metro 14,Bercy Metro 14,1
+Bercy Metro 14,Gare de Lyon Metro 14,2
+Gare de Lyon Metro 14,Châtelet Metro 14,3
+Châtelet Metro 14,Pyramides Metro 14,2
+Pyramides Metro 14,Madeleine Metro 14,2
+Madeleine Metro 14,Saint-Lazare Metro 14,2
+Nation Metro 2,Avron Metro 2,2
+Avron Metro 2,Alexandre-Dumas Metro 2,1
+Alexandre-Dumas Metro 2,Philippe Auguste Metro 2,1
+Philippe Auguste Metro 2,Père-Lachaise Metro 2,1
+Père-Lachaise Metro 2,Ménilmontant Metro 2,2
+Ménilmontant Metro 2,Couronnes Metro 2,1
+Couronnes Metro 2,Belleville Metro 2,1
+Belleville Metro 2,Colonel Fabien Metro 2,1
+Colonel Fabien Metro 2,Jaurès Metro 2,2
+Jaurès Metro 2,Stalingrad Metro 2,1
+Stalingrad Metro 2,La Chapelle Metro 2,1
+La Chapelle Metro 2,Barbès-Rochechouart Metro 2,2
+Barbès-Rochechouart Metro 2,Anvers Metro 2,1
+Anvers Metro 2,Pigalle Metro 2,2
+Pigalle Metro 2,Blanche Metro 2,1
+Blanche Metro 2,Place de Clichy Metro 2,1
+Place de Clichy Metro 2,Rome Metro 2,2
+Rome Metro 2,Villiers Metro 2,1
+Villiers Metro 2,Monceau Metro 2,1
+Monceau Metro 2,Courcelles Metro 2,1
+Courcelles Metro 2,Ternes Metro 2,2
+Ternes Metro 2,Charles de Gaulle-Etoile Metro 2,1
+Charles de Gaulle-Etoile Metro 2,Victor Hugo Metro 2,2
+Victor Hugo Metro 2,Porte Dauphine (Maréchal de Lattre de Tassigny) Metro 2,2
+Porte Dauphine (Maréchal de Lattre de Tassigny) Metro 2,Victor Hugo Metro 2,1
+Victor Hugo Metro 2,Charles de Gaulle-Etoile Metro 2,2
+Charles de Gaulle-Etoile Metro 2,Ternes Metro 2,1
+Ternes Metro 2,Courcelles Metro 2,2
+Courcelles Metro 2,Monceau Metro 2,1
+Monceau Metro 2,Villiers Metro 2,1
+Villiers Metro 2,Rome Metro 2,1
+Rome Metro 2,Place de Clichy Metro 2,2
+Place de Clichy Metro 2,Blanche Metro 2,1
+Blanche Metro 2,Pigalle Metro 2,1
+Pigalle Metro 2,Anvers Metro 2,2
+Anvers Metro 2,Barbès-Rochechouart Metro 2,1
+Barbès-Rochechouart Metro 2,La Chapelle Metro 2,2
+La Chapelle Metro 2,Stalingrad Metro 2,1
+Stalingrad Metro 2,Jaurès Metro 2,1
+Jaurès Metro 2,Colonel Fabien Metro 2,2
+Colonel Fabien Metro 2,Belleville Metro 2,1
+Belleville Metro 2,Couronnes Metro 2,1
+Couronnes Metro 2,Ménilmontant Metro 2,2
+Ménilmontant Metro 2,Père-Lachaise Metro 2,1
+Père-Lachaise Metro 2,Philippe Auguste Metro 2,1
+Philippe Auguste Metro 2,Alexandre-Dumas Metro 2,1
+Alexandre-Dumas Metro 2,Avron Metro 2,2
+Avron Metro 2,Nation Metro 2,2
+Gallieni (Parc de Bagnolet) Metro 3,Porte de Bagnolet Metro 3,2
+Porte de Bagnolet Metro 3,Gambetta Metro 3,1
+Gambetta Metro 3,Père-Lachaise Metro 3,2
+Père-Lachaise Metro 3,Rue Saint-Maur Metro 3,1
+Rue Saint-Maur Metro 3,Parmentier Metro 3,1
+Parmentier Metro 3,République Metro 3,2
+République Metro 3,Temple Metro 3,1
+Temple Metro 3,Arts-et-Métiers Metro 3,1
+Arts-et-Métiers Metro 3,Réaumur-Sébastopol Metro 3,1
+Réaumur-Sébastopol Metro 3,Sentier Metro 3,1
+Sentier Metro 3,Bourse Metro 3,1
+Bourse Metro 3,Quatre Septembre Metro 3,2
+Quatre Septembre Metro 3,Opéra Metro 3,1
+Opéra Metro 3,Havre-Caumartin Metro 3,1
+Havre-Caumartin Metro 3,Saint-Lazare Metro 3,1
+Saint-Lazare Metro 3,Europe Metro 3,2
+Europe Metro 3,Villiers Metro 3,1
+Villiers Metro 3,Malesherbes Metro 3,2
+Malesherbes Metro 3,Wagram Metro 3,1
+Wagram Metro 3,Pereire Metro 3,1
+Pereire Metro 3,Porte de Champerret Metro 3,1
+Porte de Champerret Metro 3,Louise Michel Metro 3,1
+Louise Michel Metro 3,Anatole-France Metro 3,2
+Anatole-France Metro 3,Pont de Levallois-Bécon Metro 3,1
+Pont de Levallois-Bécon Metro 3,Anatole-France Metro 3,2
+Anatole-France Metro 3,Louise Michel Metro 3,1
+Louise Michel Metro 3,Porte de Champerret Metro 3,1
+Porte de Champerret Metro 3,Pereire Metro 3,2
+Pereire Metro 3,Wagram Metro 3,1
+Wagram Metro 3,Malesherbes Metro 3,1
+Malesherbes Metro 3,Villiers Metro 3,1
+Villiers Metro 3,Europe Metro 3,2
+Europe Metro 3,Saint-Lazare Metro 3,1
+Saint-Lazare Metro 3,Havre-Caumartin Metro 3,2
+Havre-Caumartin Metro 3,Opéra Metro 3,1
+Opéra Metro 3,Quatre Septembre Metro 3,1
+Quatre Septembre Metro 3,Bourse Metro 3,1
+Bourse Metro 3,Sentier Metro 3,1
+Sentier Metro 3,Réaumur-Sébastopol Metro 3,1
+Réaumur-Sébastopol Metro 3,Arts-et-Métiers Metro 3,2
+Arts-et-Métiers Metro 3,Temple Metro 3,1
+Temple Metro 3,République Metro 3,1
+République Metro 3,Parmentier Metro 3,1
+Parmentier Metro 3,Rue Saint-Maur Metro 3,2
+Rue Saint-Maur Metro 3,Père-Lachaise Metro 3,1
+Père-Lachaise Metro 3,Gambetta Metro 3,2
+Gambetta Metro 3,Porte de Bagnolet Metro 3,1
+Porte de Bagnolet Metro 3,Gallieni (Parc de Bagnolet) Metro 3,2
+Porte des Lilas Metro 3b,Saint-Fargeau Metro 3b,2
+Saint-Fargeau Metro 3b,Pelleport Metro 3b,1
+Pelleport Metro 3b,Gambetta Metro 3b,1
+Gambetta Metro 3b,Pelleport Metro 3b,1
+Pelleport Metro 3b,Saint-Fargeau Metro 3b,2
+Saint-Fargeau Metro 3b,Porte des Lilas Metro 3b,1
+Porte de Clignancourt Metro 4,Simplon Metro 4,1
+Simplon Metro 4,Marcadet-Poissonniers Metro 4,1
+Marcadet-Poissonniers Metro 4,Château Rouge Metro 4,1
+Château Rouge Metro 4,Barbès-Rochechouart Metro 4,1
+Barbès-Rochechouart Metro 4,Gare du Nord Metro 4,2
+Gare du Nord Metro 4,Gare de l'Est (Verdun) Metro 4,1
+Gare de l'Est (Verdun) Metro 4,Château d'Eau Metro 4,1
+Château d'Eau Metro 4,Strasbourg-Saint-Denis Metro 4,1
+Strasbourg-Saint-Denis Metro 4,Réaumur-Sébastopol Metro 4,1
+Réaumur-Sébastopol Metro 4,Etienne Marcel Metro 4,1
+Etienne Marcel Metro 4,Les Halles Metro 4,2
+Les Halles Metro 4,Châtelet Metro 4,1
+Châtelet Metro 4,Cité Metro 4,1
+Cité Metro 4,Saint-Michel Metro 4,1
+Saint-Michel Metro 4,Odéon Metro 4,1
+Odéon Metro 4,Saint-Germain des Prés Metro 4,1
+Saint-Germain des Prés Metro 4,Saint-Sulpice Metro 4,1
+Saint-Sulpice Metro 4,Saint-Placide Metro 4,2
+Saint-Placide Metro 4,Montparnasse-Bienvenue Metro 4,1
+Montparnasse-Bienvenue Metro 4,Vavin Metro 4,1
+Vavin Metro 4,Raspail Metro 4,1
+Raspail Metro 4,Denfert-Rochereau Metro 4,1
+Denfert-Rochereau Metro 4,Mouton-Duvernet Metro 4,2
+Mouton-Duvernet Metro 4,Alésia Metro 4,1
+Alésia Metro 4,Porte d'Orléans (Général Leclerc) Metro 4,1
+Porte d'Orléans (Général Leclerc) Metro 4,Mairie de Montrouge Metro 4,2
+Mairie de Montrouge Metro 4,Porte d'Orléans (Général Leclerc) Metro 4,1
+Porte d'Orléans (Général Leclerc) Metro 4,Alésia Metro 4,2
+Alésia Metro 4,Mouton-Duvernet Metro 4,1
+Mouton-Duvernet Metro 4,Denfert-Rochereau Metro 4,0
+Denfert-Rochereau Metro 4,Raspail Metro 4,2
+Raspail Metro 4,Vavin Metro 4,1
+Vavin Metro 4,Montparnasse-Bienvenue Metro 4,1
+Montparnasse-Bienvenue Metro 4,Saint-Placide Metro 4,1
+Saint-Placide Metro 4,Saint-Sulpice Metro 4,1
+Saint-Sulpice Metro 4,Saint-Germain des Prés Metro 4,1
+Saint-Germain des Prés Metro 4,Odéon Metro 4,1
+Odéon Metro 4,Saint-Michel Metro 4,1
+Saint-Michel Metro 4,Cité Metro 4,2
+Cité Metro 4,Châtelet Metro 4,1
+Châtelet Metro 4,Les Halles Metro 4,1
+Les Halles Metro 4,Etienne Marcel Metro 4,1
+Etienne Marcel Metro 4,Réaumur-Sébastopol Metro 4,1
+Réaumur-Sébastopol Metro 4,Strasbourg-Saint-Denis Metro 4,1
+Strasbourg-Saint-Denis Metro 4,Château d'Eau Metro 4,1
+Château d'Eau Metro 4,Gare de l'Est (Verdun) Metro 4,1
+Gare de l'Est (Verdun) Metro 4,Gare du Nord Metro 4,2
+Gare du Nord Metro 4,Barbès-Rochechouart Metro 4,1
+Barbès-Rochechouart Metro 4,Château Rouge Metro 4,2
+Château Rouge Metro 4,Marcadet-Poissonniers Metro 4,1
+Marcadet-Poissonniers Metro 4,Simplon Metro 4,0
+Simplon Metro 4,Porte de Clignancourt Metro 4,2
+Bobigny-Pablo-Picasso Metro 5,Bobigny-Pantin (Raymond Queneau) Metro 5,3
+Bobigny-Pantin (Raymond Queneau) Metro 5,Eglise de Pantin Metro 5,2
+Eglise de Pantin Metro 5,Hoche Metro 5,1
+Hoche Metro 5,Porte de Pantin Metro 5,2
+Porte de Pantin Metro 5,Ourcq Metro 5,1
+Ourcq Metro 5,Laumière Metro 5,2
+Laumière Metro 5,Jaurès Metro 5,1
+Jaurès Metro 5,Stalingrad Metro 5,1
+Stalingrad Metro 5,Gare du Nord Metro 5,2
+Gare du Nord Metro 5,Gare de l'Est (Verdun) Metro 5,2
+Gare de l'Est (Verdun) Metro 5,Jacques-Bonsergent Metro 5,2
+Jacques-Bonsergent Metro 5,République Metro 5,2
+République Metro 5,Oberkampf Metro 5,1
+Oberkampf Metro 5,Richard-Lenoir Metro 5,1
+Richard-Lenoir Metro 5,Bréguet-Sabin Metro 5,2
+Bréguet-Sabin Metro 5,Bastille Metro 5,1
+Bastille Metro 5,Quai de la Rapée Metro 5,2
+Quai de la Rapée Metro 5,Gare d'Austerlitz Metro 5,1
+Gare d'Austerlitz Metro 5,Saint-Marcel Metro 5,2
+Saint-Marcel Metro 5,Campo-Formio Metro 5,1
+Campo-Formio Metro 5,Place d'Italie Metro 5,3
+Place d'Italie Metro 5,Campo-Formio Metro 5,1
+Campo-Formio Metro 5,Saint-Marcel Metro 5,1
+Saint-Marcel Metro 5,Gare d'Austerlitz Metro 5,2
+Gare d'Austerlitz Metro 5,Quai de la Rapée Metro 5,1
+Quai de la Rapée Metro 5,Bastille Metro 5,2
+Bastille Metro 5,Bréguet-Sabin Metro 5,1
+Bréguet-Sabin Metro 5,Richard-Lenoir Metro 5,2
+Richard-Lenoir Metro 5,Oberkampf Metro 5,1
+Oberkampf Metro 5,République Metro 5,2
+République Metro 5,Jacques-Bonsergent Metro 5,1
+Jacques-Bonsergent Metro 5,Gare de l'Est (Verdun) Metro 5,2
+Gare de l'Est (Verdun) Metro 5,Gare du Nord Metro 5,2
+Gare du Nord Metro 5,Stalingrad Metro 5,2
+Stalingrad Metro 5,Jaurès Metro 5,1
+Jaurès Metro 5,Laumière Metro 5,1
+Laumière Metro 5,Ourcq Metro 5,1
+Ourcq Metro 5,Porte de Pantin Metro 5,2
+Porte de Pantin Metro 5,Hoche Metro 5,1
+Hoche Metro 5,Eglise de Pantin Metro 5,2
+Eglise de Pantin Metro 5,Bobigny-Pantin (Raymond Queneau) Metro 5,2
+Bobigny-Pantin (Raymond Queneau) Metro 5,Bobigny-Pablo-Picasso Metro 5,4
+Nation Metro 6,Picpus Metro 6,1
+Picpus Metro 6,Bel-Air Metro 6,1
+Bel-Air Metro 6,Daumesnil (Félix Eboué) Metro 6,2
+Daumesnil (Félix Eboué) Metro 6,Dugommier Metro 6,1
+Dugommier Metro 6,Bercy Metro 6,1
+Bercy Metro 6,Quai de la Gare Metro 6,1
+Quai de la Gare Metro 6,Chevaleret Metro 6,1
+Chevaleret Metro 6,Nationale Metro 6,1
+Nationale Metro 6,Place d'Italie Metro 6,1
+Place d'Italie Metro 6,Corvisart Metro 6,2
+Corvisart Metro 6,Glacière Metro 6,1
+Glacière Metro 6,Saint-Jacques Metro 6,1
+Saint-Jacques Metro 6,Denfert-Rochereau Metro 6,2
+Denfert-Rochereau Metro 6,Raspail Metro 6,1
+Raspail Metro 6,Edgar-Quinet Metro 6,1
+Edgar-Quinet Metro 6,Montparnasse-Bienvenue Metro 6,1
+Montparnasse-Bienvenue Metro 6,Pasteur Metro 6,2
+Pasteur Metro 6,Sèvres-Lecourbe Metro 6,1
+Sèvres-Lecourbe Metro 6,Cambronne Metro 6,1
+Cambronne Metro 6,La Motte-Picquet-Grenelle Metro 6,1
+La Motte-Picquet-Grenelle Metro 6,Dupleix Metro 6,1
+Dupleix Metro 6,Bir-Hakeim (Grenelle) Metro 6,1
+Bir-Hakeim (Grenelle) Metro 6,Passy Metro 6,1
+Passy Metro 6,Trocadéro Metro 6,2
+Trocadéro Metro 6,Boissière Metro 6,1
+Boissière Metro 6,Kléber Metro 6,1
+Kléber Metro 6,Charles de Gaulle-Etoile Metro 6,2
+Charles de Gaulle-Etoile Metro 6,Kléber Metro 6,2
+Kléber Metro 6,Boissière Metro 6,1
+Boissière Metro 6,Trocadéro Metro 6,1
+Trocadéro Metro 6,Passy Metro 6,2
+Passy Metro 6,Bir-Hakeim (Grenelle) Metro 6,1
+Bir-Hakeim (Grenelle) Metro 6,Dupleix Metro 6,1
+Dupleix Metro 6,La Motte-Picquet-Grenelle Metro 6,1
+La Motte-Picquet-Grenelle Metro 6,Cambronne Metro 6,1
+Cambronne Metro 6,Sèvres-Lecourbe Metro 6,1
+Sèvres-Lecourbe Metro 6,Pasteur Metro 6,1
+Pasteur Metro 6,Montparnasse-Bienvenue Metro 6,2
+Montparnasse-Bienvenue Metro 6,Edgar-Quinet Metro 6,1
+Edgar-Quinet Metro 6,Raspail Metro 6,1
+Raspail Metro 6,Denfert-Rochereau Metro 6,1
+Denfert-Rochereau Metro 6,Saint-Jacques Metro 6,1
+Saint-Jacques Metro 6,Glacière Metro 6,1
+Glacière Metro 6,Corvisart Metro 6,2
+Corvisart Metro 6,Place d'Italie Metro 6,1
+Place d'Italie Metro 6,Nationale Metro 6,1
+Nationale Metro 6,Chevaleret Metro 6,2
+Chevaleret Metro 6,Quai de la Gare Metro 6,1
+Quai de la Gare Metro 6,Bercy Metro 6,1
+Bercy Metro 6,Dugommier Metro 6,1
+Dugommier Metro 6,Daumesnil (Félix Eboué) Metro 6,2
+Daumesnil (Félix Eboué) Metro 6,Bel-Air Metro 6,1
+Bel-Air Metro 6,Picpus Metro 6,1
+Picpus Metro 6,Nation Metro 6,2
+La Courneuve-8-Mai-1945 Metro 7,Fort d'Aubervilliers Metro 7,2
+Fort d'Aubervilliers Metro 7,Aubervilliers Pantin (4 Chemins) Metro 7,2
+Aubervilliers Pantin (4 Chemins) Metro 7,Porte de la Villette Metro 7,2
+Porte de la Villette Metro 7,Corentin-Cariou Metro 7,2
+Corentin-Cariou Metro 7,Crimée Metro 7,1
+Crimée Metro 7,Riquet Metro 7,1
+Riquet Metro 7,Stalingrad Metro 7,1
+Stalingrad Metro 7,Louis Blanc Metro 7,1
+Louis Blanc Metro 7,Château Landon Metro 7,2
+Château Landon Metro 7,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 7,Poissonnière Metro 7,2
+Poissonnière Metro 7,Cadet Metro 7,1
+Cadet Metro 7,Le Peletier Metro 7,1
+Le Peletier Metro 7,Chaussée d'Antin (La Fayette) Metro 7,1
+Chaussée d'Antin (La Fayette) Metro 7,Opéra Metro 7,2
+Opéra Metro 7,Pyramides Metro 7,2
+Pyramides Metro 7,Palais-Royal (Musée du Louvre) Metro 7,1
+Palais-Royal (Musée du Louvre) Metro 7,Pont Neuf Metro 7,1
+Pont Neuf Metro 7,Châtelet Metro 7,2
+Châtelet Metro 7,Pont Marie (Cité des Arts) Metro 7,1
+Pont Marie (Cité des Arts) Metro 7,Sully-Morland Metro 7,1
+Sully-Morland Metro 7,Jussieu Metro 7,2
+Jussieu Metro 7,Place Monge (Jardin des Plantes) Metro 7,1
+Place Monge (Jardin des Plantes) Metro 7,Censier-Daubenton Metro 7,1
+Censier-Daubenton Metro 7,Les Gobelins Metro 7,2
+Les Gobelins Metro 7,Place d'Italie Metro 7,1
+Place d'Italie Metro 7,Tolbiac Metro 7,1
+Tolbiac Metro 7,Maison Blanche Metro 7,1
+Maison Blanche Metro 7,Le Kremlin-Bicêtre Metro 7,2
+Le Kremlin-Bicêtre Metro 7,Villejuif-Léo Lagrange Metro 7,2
+Villejuif-Léo Lagrange Metro 7,Villejuif-Paul Vaillant Couturier (Hôpital Paul Brousse) Metro 7,1
+Villejuif-Paul Vaillant Couturier (Hôpital Paul Brousse) Metro 7,Villejuif-Louis Aragon Metro 7,2
+Villejuif-Louis Aragon Metro 7,Porte d'Italie Metro 7,2
+Porte d'Italie Metro 7,Porte de Choisy Metro 7,1
+Porte de Choisy Metro 7,Porte d'Ivry Metro 7,1
+Porte d'Ivry Metro 7,Pierre et Marie Curie Metro 7,1
+Pierre et Marie Curie Metro 7,Mairie d'Ivry Metro 7,2
+Villejuif-Louis Aragon Metro 7,Villejuif-Paul Vaillant Couturier (Hôpital Paul Brousse) Metro 7,2
+Villejuif-Paul Vaillant Couturier (Hôpital Paul Brousse) Metro 7,Villejuif-Léo Lagrange Metro 7,2
+Villejuif-Léo Lagrange Metro 7,Le Kremlin-Bicêtre Metro 7,2
+Le Kremlin-Bicêtre Metro 7,Maison Blanche Metro 7,2
+Maison Blanche Metro 7,Tolbiac Metro 7,1
+Tolbiac Metro 7,Place d'Italie Metro 7,1
+Place d'Italie Metro 7,Les Gobelins Metro 7,2
+Les Gobelins Metro 7,Censier-Daubenton Metro 7,1
+Censier-Daubenton Metro 7,Place Monge (Jardin des Plantes) Metro 7,1
+Place Monge (Jardin des Plantes) Metro 7,Jussieu Metro 7,2
+Jussieu Metro 7,Sully-Morland Metro 7,1
+Sully-Morland Metro 7,Pont Marie (Cité des Arts) Metro 7,2
+Pont Marie (Cité des Arts) Metro 7,Châtelet Metro 7,1
+Châtelet Metro 7,Pont Neuf Metro 7,1
+Pont Neuf Metro 7,Palais-Royal (Musée du Louvre) Metro 7,2
+Palais-Royal (Musée du Louvre) Metro 7,Pyramides Metro 7,1
+Pyramides Metro 7,Opéra Metro 7,2
+Opéra Metro 7,Chaussée d'Antin (La Fayette) Metro 7,1
+Chaussée d'Antin (La Fayette) Metro 7,Le Peletier Metro 7,2
+Le Peletier Metro 7,Cadet Metro 7,1
+Cadet Metro 7,Poissonnière Metro 7,1
+Poissonnière Metro 7,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 7,Château Landon Metro 7,2
+Château Landon Metro 7,Louis Blanc Metro 7,1
+Louis Blanc Metro 7,Stalingrad Metro 7,1
+Stalingrad Metro 7,Riquet Metro 7,2
+Riquet Metro 7,Crimée Metro 7,1
+Crimée Metro 7,Corentin-Cariou Metro 7,1
+Corentin-Cariou Metro 7,Porte de la Villette Metro 7,1
+Porte de la Villette Metro 7,Aubervilliers Pantin (4 Chemins) Metro 7,2
+Aubervilliers Pantin (4 Chemins) Metro 7,Fort d'Aubervilliers Metro 7,2
+Fort d'Aubervilliers Metro 7,La Courneuve-8-Mai-1945 Metro 7,2
+Mairie d'Ivry Metro 7,Pierre et Marie Curie Metro 7,2
+Pierre et Marie Curie Metro 7,Porte d'Ivry Metro 7,2
+Porte d'Ivry Metro 7,Porte de Choisy Metro 7,1
+Porte de Choisy Metro 7,Porte d'Italie Metro 7,1
+Pré-Saint-Gervais Metro 7b,Danube Metro 7b,1
+Danube Metro 7b,Botzaris Metro 7b,2
+Botzaris Metro 7b,Buttes-Chaumont Metro 7b,1
+Buttes-Chaumont Metro 7b,Bolivar Metro 7b,1
+Bolivar Metro 7b,Jaurès Metro 7b,1
+Jaurès Metro 7b,Louis Blanc Metro 7b,2
+Louis Blanc Metro 7b,Jaurès Metro 7b,2
+Jaurès Metro 7b,Bolivar Metro 7b,1
+Bolivar Metro 7b,Buttes-Chaumont Metro 7b,1
+Buttes-Chaumont Metro 7b,Botzaris Metro 7b,1
+Botzaris Metro 7b,Place des Fêtes Metro 7b,1
+Place des Fêtes Metro 7b,Pré-Saint-Gervais Metro 7b,2
+Balard Metro 8,Lourmel Metro 8,1
+Lourmel Metro 8,Boucicaut Metro 8,2
+Boucicaut Metro 8,Félix Faure Metro 8,1
+Félix Faure Metro 8,Commerce Metro 8,1
+Commerce Metro 8,La Motte-Picquet-Grenelle Metro 8,1
+La Motte-Picquet-Grenelle Metro 8,Ecole Militaire Metro 8,2
+Ecole Militaire Metro 8,La Tour-Maubourg Metro 8,1
+La Tour-Maubourg Metro 8,Invalides Metro 8,1
+Invalides Metro 8,Concorde Metro 8,2
+Concorde Metro 8,Madeleine Metro 8,1
+Madeleine Metro 8,Opéra Metro 8,1
+Opéra Metro 8,Richelieu-Drouot Metro 8,2
+Richelieu-Drouot Metro 8,Grands Boulevards Metro 8,1
+Grands Boulevards Metro 8,Bonne Nouvelle Metro 8,1
+Bonne Nouvelle Metro 8,Strasbourg-Saint-Denis Metro 8,1
+Strasbourg-Saint-Denis Metro 8,République Metro 8,2
+République Metro 8,Filles du Calvaire Metro 8,1
+Filles du Calvaire Metro 8,Saint-Sébastien-Froissart Metro 8,1
+Saint-Sébastien-Froissart Metro 8,Chemin Vert Metro 8,1
+Chemin Vert Metro 8,Bastille Metro 8,1
+Bastille Metro 8,Ledru-Rollin Metro 8,2
+Ledru-Rollin Metro 8,Faidherbe-Chaligny Metro 8,1
+Faidherbe-Chaligny Metro 8,Reuilly-Diderot Metro 8,1
+Reuilly-Diderot Metro 8,Montgallet Metro 8,1
+Montgallet Metro 8,Daumesnil (Félix Eboué) Metro 8,2
+Daumesnil (Félix Eboué) Metro 8,Michel Bizot Metro 8,1
+Michel Bizot Metro 8,Porte Dorée Metro 8,1
+Porte Dorée Metro 8,Porte de Charenton Metro 8,2
+Porte de Charenton Metro 8,Liberté Metro 8,2
+Liberté Metro 8,Charenton-Ecoles Metro 8,1
+Charenton-Ecoles Metro 8,Ecole Vétérinaire de Maisons-Alfort Metro 8,2
+Ecole Vétérinaire de Maisons-Alfort Metro 8,Maisons-Alfort-Stade Metro 8,2
+Maisons-Alfort-Stade Metro 8,Maisons-Alfort-Les Juilliottes Metro 8,1
+Maisons-Alfort-Les Juilliottes Metro 8,Créteil-L'Echat (Hôpital Henri Mondor) Metro 8,2
+Créteil-L'Echat (Hôpital Henri Mondor) Metro 8,Créteil-Université Metro 8,2
+Créteil-Université Metro 8,Créteil-Préfecture (Hôtel de Ville) Metro 8,2
+Créteil-Préfecture (Hôtel de Ville) Metro 8,Pointe du Lac Metro 8,3
+Pointe du Lac Metro 8,Créteil-Préfecture (Hôtel de Ville) Metro 8,2
+Créteil-Préfecture (Hôtel de Ville) Metro 8,Créteil-Université Metro 8,2
+Créteil-Université Metro 8,Créteil-L'Echat (Hôpital Henri Mondor) Metro 8,2
+Créteil-L'Echat (Hôpital Henri Mondor) Metro 8,Maisons-Alfort-Les Juilliottes Metro 8,1
+Maisons-Alfort-Les Juilliottes Metro 8,Maisons-Alfort-Stade Metro 8,2
+Maisons-Alfort-Stade Metro 8,Ecole Vétérinaire de Maisons-Alfort Metro 8,2
+Ecole Vétérinaire de Maisons-Alfort Metro 8,Charenton-Ecoles Metro 8,1
+Charenton-Ecoles Metro 8,Liberté Metro 8,2
+Liberté Metro 8,Porte de Charenton Metro 8,2
+Porte de Charenton Metro 8,Porte Dorée Metro 8,1
+Porte Dorée Metro 8,Michel Bizot Metro 8,2
+Michel Bizot Metro 8,Daumesnil (Félix Eboué) Metro 8,1
+Daumesnil (Félix Eboué) Metro 8,Montgallet Metro 8,1
+Montgallet Metro 8,Reuilly-Diderot Metro 8,1
+Reuilly-Diderot Metro 8,Faidherbe-Chaligny Metro 8,2
+Faidherbe-Chaligny Metro 8,Ledru-Rollin Metro 8,1
+Ledru-Rollin Metro 8,Bastille Metro 8,1
+Bastille Metro 8,Chemin Vert Metro 8,1
+Chemin Vert Metro 8,Saint-Sébastien-Froissart Metro 8,2
+Saint-Sébastien-Froissart Metro 8,Filles du Calvaire Metro 8,1
+Filles du Calvaire Metro 8,République Metro 8,1
+République Metro 8,Strasbourg-Saint-Denis Metro 8,2
+Strasbourg-Saint-Denis Metro 8,Bonne Nouvelle Metro 8,1
+Bonne Nouvelle Metro 8,Grands Boulevards Metro 8,1
+Grands Boulevards Metro 8,Richelieu-Drouot Metro 8,1
+Richelieu-Drouot Metro 8,Opéra Metro 8,2
+Opéra Metro 8,Madeleine Metro 8,1
+Madeleine Metro 8,Concorde Metro 8,1
+Concorde Metro 8,Invalides Metro 8,2
+Invalides Metro 8,La Tour-Maubourg Metro 8,1
+La Tour-Maubourg Metro 8,Ecole Militaire Metro 8,1
+Ecole Militaire Metro 8,La Motte-Picquet-Grenelle Metro 8,2
+La Motte-Picquet-Grenelle Metro 8,Commerce Metro 8,2
+Commerce Metro 8,Félix Faure Metro 8,1
+Félix Faure Metro 8,Boucicaut Metro 8,1
+Boucicaut Metro 8,Lourmel Metro 8,1
+Lourmel Metro 8,Balard Metro 8,2
+Pont de Sèvres Metro 9,Billancourt Metro 9,1
+Billancourt Metro 9,Marcel Sembat Metro 9,2
+Marcel Sembat Metro 9,Porte de Saint-Cloud Metro 9,2
+Porte de Saint-Cloud Metro 9,Exelmans Metro 9,2
+Exelmans Metro 9,Michel-Ange-Molitor Metro 9,1
+Michel-Ange-Molitor Metro 9,Michel-Ange-Auteuil Metro 9,1
+Michel-Ange-Auteuil Metro 9,Jasmin Metro 9,1
+Jasmin Metro 9,Ranelagh Metro 9,1
+Ranelagh Metro 9,La Muette Metro 9,2
+La Muette Metro 9,Rue de la Pompe (Avenue Georges Mandel) Metro 9,1
+Rue de la Pompe (Avenue Georges Mandel) Metro 9,Trocadéro Metro 9,2
+Trocadéro Metro 9,Iéna Metro 9,1
+Iéna Metro 9,Alma-Marceau Metro 9,2
+Alma-Marceau Metro 9,Franklin-Roosevelt Metro 9,1
+Franklin-Roosevelt Metro 9,Saint-Philippe du Roule Metro 9,2
+Saint-Philippe du Roule Metro 9,Miromesnil Metro 9,1
+Miromesnil Metro 9,Saint-Augustin Metro 9,1
+Saint-Augustin Metro 9,Havre-Caumartin Metro 9,2
+Havre-Caumartin Metro 9,Chaussée d'Antin (La Fayette) Metro 9,1
+Chaussée d'Antin (La Fayette) Metro 9,Richelieu-Drouot Metro 9,1
+Richelieu-Drouot Metro 9,Grands Boulevards Metro 9,1
+Grands Boulevards Metro 9,Bonne Nouvelle Metro 9,2
+Bonne Nouvelle Metro 9,Strasbourg-Saint-Denis Metro 9,1
+Strasbourg-Saint-Denis Metro 9,République Metro 9,2
+République Metro 9,Oberkampf Metro 9,1
+Oberkampf Metro 9,Saint-Ambroise Metro 9,2
+Saint-Ambroise Metro 9,Voltaire (Léon Blum) Metro 9,1
+Voltaire (Léon Blum) Metro 9,Charonne Metro 9,1
+Charonne Metro 9,Rue des Boulets Metro 9,1
+Rue des Boulets Metro 9,Nation Metro 9,2
+Nation Metro 9,Buzenval Metro 9,1
+Buzenval Metro 9,Maraîchers Metro 9,1
+Maraîchers Metro 9,Porte de Montreuil Metro 9,2
+Porte de Montreuil Metro 9,Robespierre Metro 9,2
+Robespierre Metro 9,Croix-de-Chavaux (Jacques Duclos) Metro 9,1
+Croix-de-Chavaux (Jacques Duclos) Metro 9,Mairie de Montreuil Metro 9,3
+Mairie de Montreuil Metro 9,Croix-de-Chavaux (Jacques Duclos) Metro 9,2
+Croix-de-Chavaux (Jacques Duclos) Metro 9,Robespierre Metro 9,1
+Robespierre Metro 9,Porte de Montreuil Metro 9,2
+Porte de Montreuil Metro 9,Maraîchers Metro 9,1
+Maraîchers Metro 9,Buzenval Metro 9,1
+Buzenval Metro 9,Nation Metro 9,2
+Nation Metro 9,Rue des Boulets Metro 9,1
+Rue des Boulets Metro 9,Charonne Metro 9,2
+Charonne Metro 9,Voltaire (Léon Blum) Metro 9,1
+Voltaire (Léon Blum) Metro 9,Saint-Ambroise Metro 9,1
+Saint-Ambroise Metro 9,Oberkampf Metro 9,2
+Oberkampf Metro 9,République Metro 9,1
+République Metro 9,Strasbourg-Saint-Denis Metro 9,2
+Strasbourg-Saint-Denis Metro 9,Bonne Nouvelle Metro 9,1
+Bonne Nouvelle Metro 9,Grands Boulevards Metro 9,1
+Grands Boulevards Metro 9,Richelieu-Drouot Metro 9,1
+Richelieu-Drouot Metro 9,Chaussée d'Antin (La Fayette) Metro 9,1
+Chaussée d'Antin (La Fayette) Metro 9,Havre-Caumartin Metro 9,2
+Havre-Caumartin Metro 9,Saint-Augustin Metro 9,1
+Saint-Augustin Metro 9,Miromesnil Metro 9,1
+Miromesnil Metro 9,Saint-Philippe du Roule Metro 9,2
+Saint-Philippe du Roule Metro 9,Franklin-Roosevelt Metro 9,1
+Franklin-Roosevelt Metro 9,Alma-Marceau Metro 9,1
+Alma-Marceau Metro 9,Iéna Metro 9,2
+Iéna Metro 9,Trocadéro Metro 9,1
+Trocadéro Metro 9,Rue de la Pompe (Avenue Georges Mandel) Metro 9,1
+Rue de la Pompe (Avenue Georges Mandel) Metro 9,La Muette Metro 9,2
+La Muette Metro 9,Ranelagh Metro 9,2
+Ranelagh Metro 9,Jasmin Metro 9,1
+Jasmin Metro 9,Michel-Ange-Auteuil Metro 9,1
+Michel-Ange-Auteuil Metro 9,Michel-Ange-Molitor Metro 9,1
+Michel-Ange-Molitor Metro 9,Exelmans Metro 9,1
+Exelmans Metro 9,Porte de Saint-Cloud Metro 9,2
+Porte de Saint-Cloud Metro 9,Marcel Sembat Metro 9,2
+Marcel Sembat Metro 9,Billancourt Metro 9,1
+Billancourt Metro 9,Pont de Sèvres Metro 9,2
+Gare de Lyon Metro 14,Gare de Lyon Metro 1,7
+Gare de Lyon Metro 14,Gare de Lyon Metro 1,4
+Gare de Lyon Metro 14,Gare de Lyon Metro 1,7
+Gare de Lyon Metro 14,Gare de Lyon Metro 1,4
+Châtelet Metro 14,Châtelet Metro 1,3
+Châtelet Metro 14,Châtelet Metro 1,3
+Châtelet Metro 14,Châtelet Metro 1,3
+Châtelet Metro 14,Châtelet Metro 1,3
+Villiers Metro 3,Villiers Metro 2,1
+Villiers Metro 3,Villiers Metro 2,1
+Raspail Metro 4,Raspail Metro 6,2
+Raspail Metro 4,Raspail Metro 6,2
+Place d'Italie Metro 7,Place d'Italie Metro 6,2
+Place d'Italie Metro 7,Place d'Italie Metro 6,2
+Nation Metro 9,Nation Metro 1,2
+Nation Metro 9,Nation Metro 1,3
+Odéon Metro 10,Odéon Metro 4,2
+Odéon Metro 10,Odéon Metro 4,1
+Marcadet-Poissonniers Metro 4,Marcadet-Poissonniers Metro 12,3
+Marcadet-Poissonniers Metro 4,Marcadet-Poissonniers Metro 12,3
+Sèvres-Babylone Metro 10,Sèvres-Babylone Metro 12,1
+Sèvres-Babylone Metro 10,Sèvres-Babylone Metro 12,1
+Stalingrad Metro 5,Stalingrad Metro 2,2
+Stalingrad Metro 5,Stalingrad Metro 7,2
+Stalingrad Metro 5,Stalingrad Metro 2,2
+Stalingrad Metro 5,Stalingrad Metro 7,2
+Stalingrad Metro 7,Stalingrad Metro 2,4
+Stalingrad Metro 7,Stalingrad Metro 2,4
+Strasbourg-Saint-Denis Metro 4,Strasbourg-Saint-Denis Metro 9,2
+Strasbourg-Saint-Denis Metro 4,Strasbourg-Saint-Denis Metro 9,1
+Trocadéro Metro 6,Trocadéro Metro 9,2
+Trocadéro Metro 6,Trocadéro Metro 9,2
+Saint-Lazare Metro 3,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 3,Saint-Lazare Metro 12,3
+Saint-Lazare Metro 3,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 3,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 3,Saint-Lazare Metro 12,4
+Saint-Lazare Metro 3,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 12,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 12,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 12,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 12,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 13,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 13,Saint-Augustin Metro 9,8
+Pyramides Metro 7,Pyramides Metro 14,3
+Pyramides Metro 7,Pyramides Metro 14,3
+Réaumur-Sébastopol Metro 3,Réaumur-Sébastopol Metro 4,2
+Réaumur-Sébastopol Metro 3,Réaumur-Sébastopol Metro 4,1
+République Metro 3,République Metro 9,2
+République Metro 3,République Metro 5,1
+République Metro 3,République Metro 5,2
+République Metro 3,République Metro 9,2
+République Metro 3,République Metro 11,3
+République Metro 3,République Metro 11,3
+République Metro 5,République Metro 9,2
+République Metro 5,République Metro 9,2
+République Metro 5,République Metro 11,3
+République Metro 5,République Metro 11,3
+Palais-Royal (Musée du Louvre) Metro 7,Palais-Royal (Musée du Louvre) Metro 1,1
+Palais-Royal (Musée du Louvre) Metro 7,Palais-Royal (Musée du Louvre) Metro 1,1
+Pasteur Metro 12,Pasteur Metro 6,2
+Pasteur Metro 12,Pasteur Metro 6,1
+Père-Lachaise Metro 3,Père-Lachaise Metro 2,2
+Père-Lachaise Metro 3,Père-Lachaise Metro 2,2
+Pigalle Metro 12,Pigalle Metro 2,2
+Pigalle Metro 12,Pigalle Metro 2,2
+Place de Clichy Metro 2,Place de Clichy Metro 13,1
+Place de Clichy Metro 2,Place de Clichy Metro 13,1
+Place des Fêtes Metro 7b,Place des Fêtes Metro 11,1
+Place des Fêtes Metro 7b,Place des Fêtes Metro 11,1
+Michel-Ange-Molitor Metro 10,Michel-Ange-Molitor Metro 9,1
+Michel-Ange-Molitor Metro 10,Michel-Ange-Molitor Metro 9,1
+Miromesnil Metro 13,Miromesnil Metro 9,1
+Miromesnil Metro 13,Miromesnil Metro 9,1
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 6,6
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 12,2
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 13,7
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 6,6
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 12,2
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 13,6
+Montparnasse-Bienvenue Metro 6,Montparnasse-Bienvenue Metro 13,2
+Montparnasse-Bienvenue Metro 6,Montparnasse-Bienvenue Metro 13,2
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 6,7
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 13,6
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 6,7
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 13,4
+Oberkampf Metro 5,Oberkampf Metro 9,2
+Oberkampf Metro 5,Oberkampf Metro 9,2
+Opéra Metro 3,Opéra Metro 7,2
+Opéra Metro 3,Opéra Metro 7,2
+Madeleine Metro 12,Madeleine Metro 14,3
+Madeleine Metro 12,Madeleine Metro 14,3
+Havre-Caumartin Metro 3,Havre-Caumartin Metro 9,1
+Havre-Caumartin Metro 3,Havre-Caumartin Metro 9,1
+Hôtel de Ville Metro 11,Hôtel de Ville Metro 1,3
+Hôtel de Ville Metro 11,Hôtel de Ville Metro 1,3
+Jaurès Metro 5,Jaurès Metro 2,4
+Jaurès Metro 5,Jaurès Metro 7b,3
+Jaurès Metro 5,Jaurès Metro 2,4
+Jaurès Metro 5,Jaurès Metro 7b,3
+Jaurès Metro 7b,Jaurès Metro 2,2
+Jaurès Metro 7b,Jaurès Metro 2,2
+Jussieu Metro 10,Jussieu Metro 7,0
+Jussieu Metro 10,Jussieu Metro 7,1
+La Motte-Picquet-Grenelle Metro 10,La Motte-Picquet-Grenelle Metro 6,2
+La Motte-Picquet-Grenelle Metro 10,La Motte-Picquet-Grenelle Metro 6,2
+Duroc Metro 10,Duroc Metro 13,3
+Duroc Metro 10,Duroc Metro 13,3
+Franklin-Roosevelt Metro 9,Franklin-Roosevelt Metro 1,5
+Franklin-Roosevelt Metro 9,Franklin-Roosevelt Metro 1,5
+Gare de l'Est (Verdun) Metro 4,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 4,Gare de l'Est (Verdun) Metro 7,2
+Gare du Nord Metro 4,La Chapelle Metro 2,7
+Gare du Nord Metro 4,La Chapelle Metro 2,7
+Gare du Nord Metro 5,La Chapelle Metro 2,7
+Gare du Nord Metro 5,Gare du Nord Metro 4,3
+Gare du Nord Metro 5,Gare du Nord Metro 4,2
+Gare du Nord Metro 5,La Chapelle Metro 2,7
+Châtelet Metro 4,Châtelet Metro 14,3
+Châtelet Metro 4,Châtelet Metro 14,3
+Châtelet Metro 4,Châtelet Metro 7,4
+Châtelet Metro 4,Châtelet Metro 1,1
+Châtelet Metro 4,Châtelet Metro 1,2
+Châtelet Metro 4,Châtelet Metro 7,4
+Châtelet Metro 7,Châtelet Metro 14,6
+Châtelet Metro 7,Châtelet Metro 14,6
+Châtelet Metro 7,Châtelet Metro 1,4
+Châtelet Metro 7,Châtelet Metro 1,5
+Chaussée d'Antin (La Fayette) Metro 7,Chaussée d'Antin (La Fayette) Metro 9,2
+Chaussée d'Antin (La Fayette) Metro 7,Chaussée d'Antin (La Fayette) Metro 9,2
+Concorde Metro 12,Concorde Metro 1,2
+Concorde Metro 12,Concorde Metro 1,2
+Denfert-Rochereau Metro 4,Denfert-Rochereau Metro 6,2
+Denfert-Rochereau Metro 4,Denfert-Rochereau Metro 6,1
+Champs-Elysées-Clémenceau Metro 13,Champs-Elysées-Clémenceau Metro 1,2
+Champs-Elysées-Clémenceau Metro 13,Champs-Elysées-Clémenceau Metro 1,1
+Charles de Gaulle-Etoile Metro 2,Charles de Gaulle-Etoile Metro 1,1
+Charles de Gaulle-Etoile Metro 2,Charles de Gaulle-Etoile Metro 1,1
+Arts-et-Métiers Metro 3,Arts-et-Métiers Metro 11,2
+Arts-et-Métiers Metro 3,Arts-et-Métiers Metro 11,2
+Barbès-Rochechouart Metro 4,Barbès-Rochechouart Metro 2,2
+Barbès-Rochechouart Metro 4,Barbès-Rochechouart Metro 2,2
+Bastille Metro 5,Bastille Metro 1,1
+Bastille Metro 5,Bastille Metro 1,2
+Bercy Metro 6,Bercy Metro 14,3
+Bercy Metro 6,Bercy Metro 14,3
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 4,1
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 4,1
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 7,1
+Belleville Metro 2,Belleville Metro 11,2
+Belleville Metro 2,Belleville Metro 11,2
+Arts-et-Métiers Metro 3,Arts-et-Métiers Metro 11,2
+Arts-et-Métiers Metro 3,Arts-et-Métiers Metro 11,2
+Barbès-Rochechouart Metro 4,Barbès-Rochechouart Metro 2,2
+Barbès-Rochechouart Metro 4,Barbès-Rochechouart Metro 2,2
+Bastille Metro 5,Bastille Metro 1,1
+Bastille Metro 5,Bastille Metro 1,2
+Bercy Metro 6,Bercy Metro 14,3
+Bercy Metro 6,Bercy Metro 14,3
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 4,2
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 4,2
+Gare de l'Est (Verdun) Metro 5,Gare de l'Est (Verdun) Metro 7,0
+Champs-Elysées-Clémenceau Metro 13,Champs-Elysées-Clémenceau Metro 1,2
+Champs-Elysées-Clémenceau Metro 13,Champs-Elysées-Clémenceau Metro 1,1
+Charles de Gaulle-Etoile Metro 2,Charles de Gaulle-Etoile Metro 1,1
+Charles de Gaulle-Etoile Metro 2,Charles de Gaulle-Etoile Metro 1,1
+Concorde Metro 12,Concorde Metro 1,2
+Concorde Metro 12,Concorde Metro 1,2
+Denfert-Rochereau Metro 4,Denfert-Rochereau Metro 6,2
+Denfert-Rochereau Metro 4,Denfert-Rochereau Metro 6,1
+Franklin-Roosevelt Metro 9,Franklin-Roosevelt Metro 1,5
+Franklin-Roosevelt Metro 9,Franklin-Roosevelt Metro 1,5
+Gare de l'Est (Verdun) Metro 4,Gare de l'Est (Verdun) Metro 7,1
+Gare de l'Est (Verdun) Metro 4,Gare de l'Est (Verdun) Metro 7,2
+Gare du Nord Metro 4,La Chapelle Metro 2,7
+Gare du Nord Metro 4,La Chapelle Metro 2,7
+Gare du Nord Metro 5,La Chapelle Metro 2,7
+Gare du Nord Metro 5,Gare du Nord Metro 4,3
+Gare du Nord Metro 5,Gare du Nord Metro 4,2
+Gare du Nord Metro 5,La Chapelle Metro 2,7
+Châtelet Metro 4,Châtelet Metro 14,3
+Châtelet Metro 4,Châtelet Metro 14,3
+Châtelet Metro 4,Châtelet Metro 7,5
+Châtelet Metro 4,Châtelet Metro 1,2
+Châtelet Metro 4,Châtelet Metro 1,2
+Châtelet Metro 4,Châtelet Metro 7,4
+Châtelet Metro 7,Châtelet Metro 14,6
+Châtelet Metro 7,Châtelet Metro 14,6
+Châtelet Metro 7,Châtelet Metro 1,4
+Châtelet Metro 7,Châtelet Metro 1,5
+Chaussée d'Antin (La Fayette) Metro 7,Chaussée d'Antin (La Fayette) Metro 9,2
+Chaussée d'Antin (La Fayette) Metro 7,Chaussée d'Antin (La Fayette) Metro 9,1
+Jussieu Metro 10,Jussieu Metro 7,1
+Jussieu Metro 10,Jussieu Metro 7,1
+La Motte-Picquet-Grenelle Metro 10,La Motte-Picquet-Grenelle Metro 6,2
+La Motte-Picquet-Grenelle Metro 10,La Motte-Picquet-Grenelle Metro 6,2
+Duroc Metro 10,Duroc Metro 13,3
+Duroc Metro 10,Duroc Metro 13,2
+Havre-Caumartin Metro 3,Havre-Caumartin Metro 9,1
+Havre-Caumartin Metro 3,Havre-Caumartin Metro 9,1
+Hôtel de Ville Metro 11,Hôtel de Ville Metro 1,2
+Hôtel de Ville Metro 11,Hôtel de Ville Metro 1,3
+Jaurès Metro 5,Jaurès Metro 2,4
+Jaurès Metro 5,Jaurès Metro 7b,3
+Jaurès Metro 5,Jaurès Metro 2,4
+Jaurès Metro 5,Jaurès Metro 7b,3
+Jaurès Metro 7b,Jaurès Metro 2,2
+Jaurès Metro 7b,Jaurès Metro 2,2
+Oberkampf Metro 5,Oberkampf Metro 9,2
+Oberkampf Metro 5,Oberkampf Metro 9,2
+Opéra Metro 3,Opéra Metro 7,1
+Opéra Metro 3,Opéra Metro 7,2
+Madeleine Metro 12,Madeleine Metro 14,3
+Madeleine Metro 12,Madeleine Metro 14,3
+Michel-Ange-Auteuil Metro 10,Michel-Ange-Auteuil Metro 9,1
+Michel-Ange-Auteuil Metro 10,Michel-Ange-Auteuil Metro 9,1
+Miromesnil Metro 13,Miromesnil Metro 9,1
+Miromesnil Metro 13,Miromesnil Metro 9,1
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 6,6
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 12,2
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 13,5
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 6,6
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 12,2
+Montparnasse-Bienvenue Metro 4,Montparnasse-Bienvenue Metro 13,5
+Montparnasse-Bienvenue Metro 6,Montparnasse-Bienvenue Metro 13,2
+Montparnasse-Bienvenue Metro 6,Montparnasse-Bienvenue Metro 13,2
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 6,5
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 13,4
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 6,5
+Montparnasse-Bienvenue Metro 12,Montparnasse-Bienvenue Metro 13,4
+Réaumur-Sébastopol Metro 3,Réaumur-Sébastopol Metro 4,2
+Réaumur-Sébastopol Metro 3,Réaumur-Sébastopol Metro 4,1
+République Metro 3,République Metro 9,2
+République Metro 3,République Metro 5,1
+République Metro 3,République Metro 5,3
+République Metro 3,République Metro 9,2
+République Metro 3,République Metro 11,3
+République Metro 3,République Metro 11,3
+République Metro 5,République Metro 9,2
+République Metro 5,République Metro 9,2
+République Metro 5,République Metro 11,3
+République Metro 5,République Metro 11,3
+Palais-Royal (Musée du Louvre) Metro 7,Palais-Royal (Musée du Louvre) Metro 1,1
+Palais-Royal (Musée du Louvre) Metro 7,Palais-Royal (Musée du Louvre) Metro 1,2
+Pasteur Metro 12,Pasteur Metro 6,2
+Pasteur Metro 12,Pasteur Metro 6,2
+Père-Lachaise Metro 3,Père-Lachaise Metro 2,2
+Père-Lachaise Metro 3,Père-Lachaise Metro 2,1
+Pigalle Metro 12,Pigalle Metro 2,2
+Pigalle Metro 12,Pigalle Metro 2,2
+Place de Clichy Metro 2,Place de Clichy Metro 13,2
+Place de Clichy Metro 2,Place de Clichy Metro 13,2
+Pyramides Metro 7,Pyramides Metro 14,3
+Pyramides Metro 7,Pyramides Metro 14,3
+Saint-Lazare Metro 3,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 3,Saint-Lazare Metro 12,4
+Saint-Lazare Metro 3,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 3,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 3,Saint-Lazare Metro 12,4
+Saint-Lazare Metro 3,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 12,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 12,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 12,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 12,Saint-Lazare Metro 13,2
+Saint-Lazare Metro 13,Saint-Augustin Metro 9,8
+Saint-Lazare Metro 13,Saint-Augustin Metro 9,8
+Sèvres-Babylone Metro 10,Sèvres-Babylone Metro 12,2
+Sèvres-Babylone Metro 10,Sèvres-Babylone Metro 12,1
+Stalingrad Metro 5,Stalingrad Metro 2,2
+Stalingrad Metro 5,Stalingrad Metro 7,2
+Stalingrad Metro 5,Stalingrad Metro 2,2
+Stalingrad Metro 5,Stalingrad Metro 7,2
+Stalingrad Metro 7,Stalingrad Metro 2,4
+Stalingrad Metro 7,Stalingrad Metro 2,4
+Strasbourg-Saint-Denis Metro 4,Strasbourg-Saint-Denis Metro 9,2
+Strasbourg-Saint-Denis Metro 4,Strasbourg-Saint-Denis Metro 9,2
+Trocadéro Metro 6,Trocadéro Metro 9,2
+Trocadéro Metro 6,Trocadéro Metro 9,1
+Villiers Metro 3,Villiers Metro 2,1
+Villiers Metro 3,Villiers Metro 2,1
+Raspail Metro 4,Raspail Metro 6,2
+Raspail Metro 4,Raspail Metro 6,2
+Place d'Italie Metro 7,Place d'Italie Metro 6,2
+Place d'Italie Metro 7,Place d'Italie Metro 6,2
+Nation Metro 9,Nation Metro 1,3
+Nation Metro 9,Nation Metro 1,3
+Odéon Metro 10,Odéon Metro 4,2
+Odéon Metro 10,Odéon Metro 4,2
+Marcadet-Poissonniers Metro 4,Marcadet-Poissonniers Metro 12,3
+Marcadet-Poissonniers Metro 4,Marcadet-Poissonniers Metro 12,3
+Belleville Metro 2,Belleville Metro 11,2
+Belleville Metro 2,Belleville Metro 11,2
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 6,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 10,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 10,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 6,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 6,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 10,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 10,3
+La Motte-Picquet-Grenelle Metro 8,La Motte-Picquet-Grenelle Metro 6,3
+Invalides Metro 8,Invalides Metro 13,3
+Invalides Metro 8,Invalides Metro 13,3
+Invalides Metro 8,Invalides Metro 13,3
+Invalides Metro 8,Invalides Metro 13,3
+Concorde Metro 8,Concorde Metro 1,3
+Concorde Metro 8,Concorde Metro 12,3
+Concorde Metro 8,Concorde Metro 1,3
+Concorde Metro 8,Concorde Metro 12,3
+Concorde Metro 8,Concorde Metro 1,3
+Concorde Metro 8,Concorde Metro 12,3
+Concorde Metro 8,Concorde Metro 1,3
+Concorde Metro 8,Concorde Metro 12,3
+Madeleine Metro 8,Madeleine Metro 14,3
+Madeleine Metro 8,Madeleine Metro 14,3
+Madeleine Metro 8,Madeleine Metro 12,3
+Madeleine Metro 8,Madeleine Metro 12,3
+Madeleine Metro 8,Madeleine Metro 14,3
+Madeleine Metro 8,Madeleine Metro 14,3
+Madeleine Metro 8,Madeleine Metro 12,3
+Madeleine Metro 8,Madeleine Metro 12,3
+Opéra Metro 8,Opéra Metro 3,3
+Opéra Metro 8,Opéra Metro 7,3
+Opéra Metro 8,Opéra Metro 3,3
+Opéra Metro 8,Opéra Metro 7,3
+Opéra Metro 8,Opéra Metro 3,3
+Opéra Metro 8,Opéra Metro 7,3
+Opéra Metro 8,Opéra Metro 3,3
+Opéra Metro 8,Opéra Metro 7,3
+Richelieu-Drouot Metro 8,Richelieu-Drouot Metro 9,3
+Richelieu-Drouot Metro 8,Richelieu-Drouot Metro 9,3
+Richelieu-Drouot Metro 8,Richelieu-Drouot Metro 9,3
+Richelieu-Drouot Metro 8,Richelieu-Drouot Metro 9,3
+Grands Boulevards Metro 8,Grands Boulevards Metro 9,3
+Grands Boulevards Metro 8,Grands Boulevards Metro 9,3
+Grands Boulevards Metro 8,Grands Boulevards Metro 9,3
+Grands Boulevards Metro 8,Grands Boulevards Metro 9,3
+Bonne Nouvelle Metro 8,Bonne Nouvelle Metro 9,3
+Bonne Nouvelle Metro 8,Bonne Nouvelle Metro 9,3
+Bonne Nouvelle Metro 8,Bonne Nouvelle Metro 9,3
+Bonne Nouvelle Metro 8,Bonne Nouvelle Metro 9,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 4,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 9,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 4,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 9,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 4,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 9,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 4,3
+Strasbourg-Saint-Denis Metro 8,Strasbourg-Saint-Denis Metro 9,3
+République Metro 8,République Metro 9,3
+République Metro 8,République Metro 3,3
+République Metro 8,République Metro 5,3
+République Metro 8,République Metro 3,3
+République Metro 8,République Metro 5,3
+République Metro 8,République Metro 9,3
+République Metro 8,République Metro 11,3
+République Metro 8,République Metro 11,3
+République Metro 8,République Metro 9,3
+République Metro 8,République Metro 3,3
+République Metro 8,République Metro 5,3
+République Metro 8,République Metro 3,3
+République Metro 8,République Metro 5,3
+République Metro 8,République Metro 9,3
+République Metro 8,République Metro 11,3
+République Metro 8,République Metro 11,3
+Bastille Metro 8,Bastille Metro 1,3
+Bastille Metro 8,Bastille Metro 5,3
+Bastille Metro 8,Bastille Metro 1,3
+Bastille Metro 8,Bastille Metro 5,3
+Bastille Metro 8,Bastille Metro 1,3
+Bastille Metro 8,Bastille Metro 5,3
+Bastille Metro 8,Bastille Metro 1,3
+Bastille Metro 8,Bastille Metro 5,3
+Reuilly-Diderot Metro 8,Reuilly-Diderot Metro 1,3
+Reuilly-Diderot Metro 8,Reuilly-Diderot Metro 1,3
+Reuilly-Diderot Metro 8,Reuilly-Diderot Metro 1,3
+Reuilly-Diderot Metro 8,Reuilly-Diderot Metro 1,3
+Daumesnil (Félix Eboué) Metro 8,Daumesnil (Félix Eboué) Metro 6,3
+Daumesnil (Félix Eboué) Metro 8,Daumesnil (Félix Eboué) Metro 6,3
+Daumesnil (Félix Eboué) Metro 8,Daumesnil (Félix Eboué) Metro 6,3
+Daumesnil (Félix Eboué) Metro 8,Daumesnil (Félix Eboué) Metro 6,3
+République Metro 11,République Metro 9,3
+République Metro 11,République Metro 9,3
+République Metro 11,République Metro 9,3
+République Metro 11,République Metro 9,3
