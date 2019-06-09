@@ -472,7 +472,7 @@ public  class Graph<V extends Comparable<V>> {
 	public static void main(String[] args) {
 		
 		// Calls processDigraph for Integer
-		processDigraph("Bastille Metro 1", "République Metro 9", "final3.txt");
+		processDigraph("Corentin-Cariou Metro 7", "Porte de Vanves Metro 13", "final3.txt");
 
 	}
 

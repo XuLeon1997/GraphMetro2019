@@ -118,7 +118,7 @@ public class DijkstraTreeSet {
 							
 							if(!treeSet.add(p)) {
 								System.out.println(false);
-								treeSet.tailSet(p, true);
+								System.out.println("destination :	" +destination);
 							}
 //							System.out.println("				treeSet after  add:	" +treeSet);
 							
@@ -140,6 +140,7 @@ public class DijkstraTreeSet {
 		
 		// print Shortest Path Tree
 		printDijkstra(g, distances, sourceVertex);
+		printDijkstraDistance(g, distances, sourceVertex, destinationVertex);
 	}
 	
 	
@@ -161,6 +162,15 @@ public class DijkstraTreeSet {
 		System.out.println("Tout parcouru : "+parcouru);
 		
 		//System.out.println(Double.MAX_VALUE);
+	}
+	private static void printDijkstraDistance(Graph<String> g, Map<String, Double> distances, String sourceVertex, String destinationVertex) {
+		//System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
+
+		System.out.println("	Source Vertex: " + sourceVertex + " to vertex " + destinationVertex + " distance: "+distances.get(destinationVertex)+"Km");
+		List<String>  bfsList = Graph.bfsShortestPath(g , sourceVertex, destinationVertex);
+		for(String parcourVertice:bfsList) {
+			System.out.println(parcourVertice+ " distance: "+distances.get(parcourVertice)+"Km");
+		}
 	}
 	
 	
