@@ -24,7 +24,7 @@ import java.util.TreeMap;
  * 
  * @author slefebvr
  *
- * @param <V>
+ * @param <String>
  * @param <E>
  */
 public  class Graph<V extends Comparable<V>> {
@@ -460,6 +460,11 @@ public  class Graph<V extends Comparable<V>> {
 //	    }
 //		
 //		System.out.println("Diameter : " + diameter);
+		
+		
+		
+		
+		DijkstraTreeSet.dijkstra((Graph<String>) g,(String) bfsStartNode,(String)bfsGoalNode);
 	}
 
 	public static void main(String[] args) {
