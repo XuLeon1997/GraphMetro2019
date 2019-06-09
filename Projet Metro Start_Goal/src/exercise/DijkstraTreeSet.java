@@ -1,6 +1,7 @@
 package exercise;
 
 import java.util.AbstractMap.SimpleEntry;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -24,12 +25,12 @@ public class DijkstraTreeSet {
 		// (key=vertex, value=distance)
 		//
 		// TODO: Add generic type parameter. Can be found from usage (see line 103)
-		Map<String, Double> distance = new HashMap<>();
+		Map<String, Double> distances = new HashMap<>();
 
 		// Initializes all the distances to "infinity" (use the value
 		// Integer.MAX_VALUE for "infinity")
 		for (String vertice : g.adjacency.keySet()) {
-			distance.put(vertice, Double.MAX_VALUE);
+			distances.put(vertice, Double.MAX_VALUE);
 		}
 
 		// Initializes tree set
@@ -41,7 +42,7 @@ public class DijkstraTreeSet {
 
 		// Initialises for the sourceVertex
 		// Sets the distance for the sourceVertex (in distance) to 0
-		distance.put(sourceVertex, (double) 0);
+		distances.put(sourceVertex, (double) 0);
 		
 		// Creates a new pair (class SimpleEntry) of (distance, vertex) for the sourceVertex
 		//
@@ -64,7 +65,8 @@ public class DijkstraTreeSet {
 			//
 			// TODO: Remove the explicit type cast if not required
 			String extractedVertex = extractedPair.getValue();
-
+//			System.out.println("	treeSet before loop:	" +treeSet);
+//			System.out.println("	extractedVertex :	" +extractedVertex);
 			// Only if the extracted vertex is in the unvisited set do the rest ...
 			if (unvisitedVertices.contains(extractedVertex)) {
 				// Removes the extracted vertex from the unvisited set (i.e. mark it as
@@ -86,49 +88,77 @@ public class DijkstraTreeSet {
 
 					// Gets the Edge destination vertex
 					String destination = edge.to();
-
+//					System.out.println("		destination :	"+destination+"		unvisitedVertices :		"+unvisitedVertices.contains(destination));
 					// Only if the destination vertex is in the unvisited set, do the rest
+					
 					if (unvisitedVertices.contains(destination)) {
 						// Gets the current distance of the destination vertex
 						//
 						// TODO: Remove the explicit type cast if not required
-						double currentDistance = distance.get(destination);
+						double currentDistance = distances.get(destination);
 
 						// Calculates the new distance via extractedVertex and the edge.weight
 						//
 						// TODO: Remove the explicit type cast if not required
-						double newDistance =  distance.get(extractedVertex) + edge.distanceTravel();
+						double newDistance =  distances.get(extractedVertex) + edge.distanceTravel();
 
 						// If the newDistance is less than the currentDistance, update
 						if (newDistance < currentDistance) {
 							// Creates a new pair (SimpleEntry object) for (newDistance, destination)
 							//
 							// TODO: Add generic type parameter. Can be found from usage (see line 180)
+							
 							SimpleEntry<Double, String> p = new SimpleEntry<Double, String>(newDistance, destination);
+						
+//							// Adds the pair object to the treeSet
 
-							// Adds the pair object to the treeSet
-							treeSet.add(p);
-
+							
+//							System.out.println("				treeSet before add:	" +treeSet);
+//							System.out.println("				p:	"+p);
+							
+							if(!treeSet.add(p)) {
+								System.out.println(false);
+								treeSet.tailSet(p, true);
+							}
+//							System.out.println("				treeSet after  add:	" +treeSet);
+							
+//							Double currentDistance2 = distances.get(destination);
+//							SimpleEntry<Double, String> p2 = new SimpleEntry<Double, String>(distances.get(destination), destination);
+//							treeSet.add(p);
 							// Updates the distance HashMap for the destination vertex to the
 							// newDistance
-							distance.put(destination, newDistance);
+							distances.put(destination, newDistance);
 						}
 					}
+					
 				}
 			}
 		}
+
+		
+		
+		
 		// print Shortest Path Tree
-		printDijkstra(g, distance, sourceVertex);
+		printDijkstra(g, distances, sourceVertex);
 	}
 	
 	
 	// TODO: Add generic type parameter to HashMap. Can be found from usage (see line 98)
-	private static void printDijkstra(Graph<String> g, Map<String, Double> distance, String sourceVertex) {
-		System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
+	private static void printDijkstra(Graph<String> g, Map<String, Double> distances, String sourceVertex) {
+		//System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
+		int i=1;
+		int j=1;
+		boolean parcouru= true;
 		for (String vertice : g.adjacency.keySet()) {
-			System.out.println(
-					"Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: " + distance.get(vertice));
+			
+			if(distances.get(vertice)==Double.MAX_VALUE){
+				System.out.println(j++ +"	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: infini");
+				parcouru=false;
+			}else {
+//				System.out.println(i++ +" :	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: " + distances.get(vertice) +"Km");
+			}
 		}
+		System.out.println("Tout parcouru : "+parcouru);
 		
 		//System.out.println(Double.MAX_VALUE);
 	}
@@ -150,7 +180,11 @@ public class DijkstraTreeSet {
 			Double key1 =  (o1).getKey();
 			// TODO: Remove explicit type casts
 			Double key2 =  (o2).getKey();
-			return  (int) (key1 - key2);
+			if((key1 - key2)<0)return  -1;
+			else if((key1 - key2)==0.0)return  0;
+			else if((key1 - key2)>0)return  1;
+			else return 0;
+			
 		}
 	}
 }

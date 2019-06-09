@@ -430,47 +430,49 @@ public  class Graph<V extends Comparable<V>> {
 		
 		System.out.println("\n------------------------------\n");
 		
-		
-
-
-//		System.out.println("Diameter : " + g.diametre(g));
+	
 	
 		
-		
-//	    int[] arrayShortestPaths=new int[g.adjacency.size()];
-//	    int i=0;
-//	    for (String entree : g.adjacency.keySet()){
-//		    String keyE = entree;
-//		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
-//		    for (String sortie:g.adjacency.keySet()){
-//			    String keyS = sortie;
-//			    if(keyE!=keyS) {
-//				    int pathDistance = Graph.bfsShortestPath(g, keyE, keyS).size();
-//				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
-//			    }
-//			}
-//			i++;
-//		}
-//	    
-//	    
-//		System.out.println(Arrays.toString(arrayShortestPaths));
-//		int diameter=0;
-//		for (int ShortestPath :arrayShortestPaths ) {
-//			if (ShortestPath > diameter) diameter=ShortestPath;
-//	    }
-//		
-//		System.out.println("Diameter : " + diameter);
+		//*********************
+		//CALCUL DIAMETER
+		//*********************
+//		System.out.println("Calcul Diameter ...");
+//		System.out.println("Diameter : " + g.diameter());
 		
 		
 		
 		
 		DijkstraTreeSet.dijkstra((Graph<String>) g,(String) bfsStartNode,(String)bfsGoalNode);
 	}
-
+	
+	public int diameter() {
+	    int[] arrayShortestPaths=new int[this.adjacency.size()];
+	    int i=0;
+	    for (String entree : this.adjacency.keySet()){
+		    String keyE = entree;
+		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
+		    for (String sortie:this.adjacency.keySet()){
+			    String keyS = sortie;
+			    if(keyE!=keyS) {
+				    int pathDistance = Graph.bfsShortestPath(this, keyE, keyS).size();
+				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
+			    }
+			}
+			i++;
+		}
+	    
+		//System.out.println(Arrays.toString(arrayShortestPaths));
+		int diameter=0;
+		for (int ShortestPath :arrayShortestPaths ) {
+			if (ShortestPath > diameter) diameter=ShortestPath;
+	    }
+		return diameter;
+	}
+	
 	public static void main(String[] args) {
 		
 		// Calls processDigraph for Integer
-		processDigraph("République Metro 8", "Bastille Metro 8", "final3.txt");
+		processDigraph("Bastille Metro 1", "République Metro 9", "final3.txt");
 
 	}
 
