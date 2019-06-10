@@ -12,8 +12,6 @@ import java.util.TreeSet;
 public class DijkstraTreeSet {
 	public static void dijkstra(Graph<String> g,String sourceVertex, String destinationVertex) {
 		// Creates a new empty HashSet object to store the unvisited vertices
-		//
-		// TODO: Add generic type parameter. Can be found from usage (see line 91)
 		HashSet<String> unvisitedVertices = new HashSet<>();
 
 		// Initializes the unvisited set with all the vertices
@@ -22,9 +20,6 @@ public class DijkstraTreeSet {
 		}
 
 		// Creates a new empty HashMap object to store the distance to each vertex
-		// (key=vertex, value=distance)
-		//
-		// TODO: Add generic type parameter. Can be found from usage (see line 103)
 		Map<String, Double> distances = new HashMap<>();
 
 		// Initializes all the distances to "infinity" (use the value
@@ -35,8 +30,6 @@ public class DijkstraTreeSet {
 
 		// Initializes tree set
 		// override the comparator to do the sorting based keys
-		//
-		// TODO: Add generic type parameter. Can be found from usage (see line 123)
 		// Question 1: Why does PairComparator *not* need a generic type parameter?
 		TreeSet<SimpleEntry<Double, String>> treeSet = new TreeSet<SimpleEntry<Double, String>>(new PairComparator());
 
@@ -56,13 +49,9 @@ public class DijkstraTreeSet {
 		while (!treeSet.isEmpty()) {
 			// Finds and removes the (distance, vertex) pair (class SimpleEntry) with the minimum distance
 			// in the treeSet
-			//
-			// TODO: Add generic type parameter and remove explicit cast. Can be found from usage (see line 123)
 			SimpleEntry<Double, String> extractedPair = (SimpleEntry<Double, String>) treeSet.pollFirst();
 
 			// Get the vertex from the (distance, vertex) pair (it is in the pair value)
-			//
-			// TODO: Remove the explicit type cast if not required
 			String extractedVertex = extractedPair.getValue();
 			// Only if the extracted vertex is in the unvisited set do the rest ...
 			if (unvisitedVertices.contains(extractedVertex)) {
@@ -71,16 +60,12 @@ public class DijkstraTreeSet {
 				unvisitedVertices.remove(extractedVertex);
 
 				// Takes all the adjacent vertices
-				//
-				// TODO: Add generic type parameter. Can be found from declaration (see line 40)
 				List<Edge<String>> list =g.adjacency.get(extractedVertex);
 				
 				// iterate over every neighbor/adjacent vertex
 				for (int i = 0; i < list.size(); i++) {
 
 					// Gets the corresponding Edge object
-					//
-					// TODO: Remove the explicit type cast if not required
 					Edge<String> edge = list.get(i);
 
 					// Gets the Edge destination vertex
@@ -90,81 +75,58 @@ public class DijkstraTreeSet {
 					
 					if (unvisitedVertices.contains(destination)) {
 						// Gets the current distance of the destination vertex
-						//
-						// TODO: Remove the explicit type cast if not required
 						double currentDistance = distances.get(destination);
 
 						// Calculates the new distance via extractedVertex and the edge.weight
-						//
-						// TODO: Remove the explicit type cast if not required
 						double newDistance =  distances.get(extractedVertex) + edge.distanceTravel();
 
 						// If the newDistance is less than the currentDistance, update
 						if (newDistance < currentDistance) {
 							// Creates a new pair (SimpleEntry object) for (newDistance, destination)
-							//
-							// TODO: Add generic type parameter. Can be found from usage (see line 180)
 							SimpleEntry<Double, String> p = new SimpleEntry<Double, String>(newDistance, destination);
 							// Adds the pair object to the treeSet
 							treeSet.add(p);
 							distances.put(destination, newDistance);
 						}
 					}
-					
 				}
 			}
 		}
-		
-		// print Shortest Path Tree
 		printDijkstra(g, distances, sourceVertex);
 		printDijkstraDistance(g, distances, sourceVertex, destinationVertex);
 	}
-	
-	
-	// TODO: Add generic type parameter to HashMap. Can be found from usage (see line 98)
 	private static void printDijkstra(Graph<String> g, Map<String, Double> distances, String sourceVertex) {
-		//System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
-		int i=1;
-		int j=1;
-		boolean parcouru= true;
+		int i = 0;
+		boolean parcouru = true;
 		for (String vertice : g.adjacency.keySet()) {
-			
-			if(distances.get(vertice)==Double.MAX_VALUE){
-				j++;
-				parcouru=false;
-				System.out.println(j+"	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: infini");
-			}else {
-//				System.out.println(i++ +" :	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: " + distances.get(vertice) +"Km");
+			i++;
+			if (distances.get(vertice) == Double.MAX_VALUE) {
+				
+				parcouru = false;
+				System.out.println( "	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: infini");
+			} else {
+				System.out.println(i++ +" :	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: " + distances.get(vertice) +"Km");
 			}
 		}
 		System.out.print("Tout parcouru : "+parcouru);
-		if(!parcouru)System.out.println("		<"+j+" stations non calculee>");
+		if(!parcouru)System.out.println("		<sur"+ i+" stations calculee>");
 	}
 	private static void printDijkstraDistance(Graph<String> g, Map<String, Double> distances, String sourceVertex, String destinationVertex) {
-		//System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
 
 		System.out.println("	Source Vertex: " + sourceVertex + " to vertex " + destinationVertex + " distance: "+distances.get(destinationVertex)+"Km");
 		List<String>  bfsList = Graph.bfsShortestPath(g , sourceVertex, destinationVertex);
 		for(String parcourVertice:bfsList) {
 			System.out.println(parcourVertice+ "		distance:	"+distances.get(parcourVertice)+"Km");
 		}
+		
 	}
 	
-	// TODO: Add Generic types to "Comparator". The type being compared can be found by looking at the usage of this class (see line 111)
 	static class PairComparator implements Comparator<SimpleEntry<Double, String>> {
 
-		// Implements the compare method. o1 and o2 are really instances of
-		// java.util.AbstractMap.SimpleEntry where the key and the value are both of type int. Returns the
-		// equivalent of o1.key - o2.key to implement an ascending value ordering.
-		//
-		// TODO: Change "Object" type to reflect the more specific type used. See class declaration for type hint (line 195)
 		@Override
 		public int compare(SimpleEntry<Double,String> o1, SimpleEntry<Double, String> o2) {
 			// sort using distance values
-
-			// TODO: Remove explicit type casts
 			Double key1 =  (o1).getKey();
-			// TODO: Remove explicit type casts
 			Double key2 =  (o2).getKey();
 			if((key1 - key2)<0)return  -1;
 			else if((key1 - key2)==0.0)return  0;

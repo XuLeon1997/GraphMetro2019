@@ -69,9 +69,11 @@ public  class Graph<V extends Comparable<V>> {
 			addVertex(t);
 		
 		List<Edge<String>> se = adjacency.get(s);
-		if(!this.containsEdge(s, t)) se.add(new Edge<>(s,t,distance_travel));
+		if(!this.containsEdge(s, t)) 
+			se.add(new Edge<>(s,t,distance_travel));
 		List<Edge<String>> te = adjacency.get(t);
-		if(!this.containsEdge(t, s)) te.add(new Edge<>(t,s,distance_travel));
+		if(!this.containsEdge(t, s)) 
+			te.add(new Edge<>(t,s,distance_travel));
 
 	}
 	/**
@@ -283,7 +285,6 @@ public  class Graph<V extends Comparable<V>> {
     				if (!vis.containsKey(adj))
     				{
     					q.add(adj);
-//    					System.out.println(G.adjacency.get(current).get(y).to());
     					vis.put(adj, true);
     					prev.put(adj,current);
     				}
@@ -311,73 +312,16 @@ public  class Graph<V extends Comparable<V>> {
     	}
     	 Collections.reverse(directions);
     	 return directions;
-    	
-    	
-//    	List<String> BFS =new ArrayList<>(0);
-//    	String x= startPoint;
-//    	System.out.println("départ" + x);
-//    	BFS.add(x);
-//		for(int y=0;y<G.adjacency.get(x).size();y++) {
-// 			BFS.add(G.adjacency.get(x).get(y).to());
-// 			System.out.println(G.adjacency.get(x).get(y).to());
-//		}
-//		boolean flagEnd=true;
-//    	do {
-//    		boolean flag=true;
-//    		do {
-//    			x=BFS.get(0);
-//    			BFS.remove(0);
-//
-//    			
-//    			if(x.equals(goalPoint)) {
-//    				vis.put(x,true);
-//			
-//    					
-//    				
-//    				flagEnd=false;
-//    				flag=false;
-//    				System.out.println("Trouvé");
-//    			}
-//    			else if (!vu.contains(x)){
-//    				vis.put(x,true);
-//    				
-//    				flag=false;
-//    			}else if (BFS.isEmpty()) {
-//    				flag=false;
-//    			}
-//    			
-//    			
-//    		}while(flag);
-//    		if(G.adjacency.containsKey(x)) {
-//	    		for(int y=0;y<G.adjacency.get(x).size();y++) {
-//	    			if (!vu.contains(G.adjacency.get(x).get(y).to())) BFS.add(G.adjacency.get(x).get(y).to());
-//	    			System.out.println(G.adjacency.get(x).get(y).to());
-//	    		}
-//    		}
-//    	}while(!BFS.isEmpty() && flagEnd);
-//        return (ArrayList<V>) vu;
     }
 
-
-    
-	// TODO: Implement this function, parametrized by the type of vertex V, to do
-	// some sample processing
-	// The function accepts a start vertex of type V for a BFS traversal, and the
-	// filename from which to load
-	// the graph.
-	// It then proceeds to load the graph and print fome information about it.
-	public static <V extends Comparable<V>>  void processDigraph(V bfsStartNode, V bfsGoalNode, String filename) {
+	public static <V extends Comparable<V>>  void processGraph(V bfsStartNode, V bfsGoalNode, String filename) {
 		System.out.println("Reading graph from file: " + filename);
 
-		// TODO: call GraphFactory.createDiGraphFromTextFileAuto and assignt to a
-		// generic Graph type
-		// An unchecked type cast is needed.
 		Graph<V>  g = (Graph<V> ) GraphFactory.createGraphFromTextFileAuto(filename);
 
 		System.out.println("Graph structure: (node -> [<out_neighgbor>])");
 		for (String  vertex : g.vertices()) {
 			System.out.print(vertex.toString() + " -> ");
-			// TODO: iterate over the neighbors of each vertex v and print them out.
 			for (String  neighbour : g.outNeighbors(vertex)) {
 				System.out.print(neighbour.toString() + " ");
 			}
@@ -386,30 +330,9 @@ public  class Graph<V extends Comparable<V>> {
 
 		System.out.println();
 
-		// TODO: Print the order of the graph, generically.
-		//System.out.println("Order: " + g.order() );
-
-		// TODO: Print the size of the graph, generically.
-		//System.out.println("Size: " + g.size() );
-
-//		// TODO: Print the connectedness of the graph, generically.
-//		System.out.println("Connected: " + g.isConnected() );
-//
-//		// TODO: Execute a DFS of the graph, generically, and print the resulting list
-//		// of nodes, generically.
-//		List<V>  dfsList =  dfs(g, bfsStartNode, bfsGoalNode);
-//		System.out.println("DFS result:");
-//		// TODO: Iterate and print each node in the DFS result list
-//		for (V  dfsNode : dfsList) {
-//			System.out.print(dfsNode.toString() + " ");
-//		}
-//		System.out.println();
-
-		// TODO: Execute a BFS of the graph starting at bfsStartNode, generically, and
-		// print the resulting list of nodes, generically.
 		List<String>  bfsList = bfsShortestPath(g , (String)bfsStartNode, (String) bfsGoalNode);
 		System.out.println("BFS result:");
-		// TODO: Iterate and print each node in the DFS result list
+
 		System.out.println(bfsList.toString());
 		//*********************
 		//CALCUL DISTANCE TOTAL
@@ -441,8 +364,8 @@ public  class Graph<V extends Comparable<V>> {
 		//*********************
 		//CALCUL DIAMETER
 		//*********************
-//		System.out.println("Calcul Diameter ...");
-//		System.out.println("Diameter : " + g.diameter());
+		System.out.println("Calcul Diameter ...");
+		System.out.println("Diameter : " + Arrays.deepToString(g.diameter()));
 		
 		
 		
@@ -450,26 +373,30 @@ public  class Graph<V extends Comparable<V>> {
 		DijkstraTreeSet.dijkstra((Graph<String>) g,(String) bfsStartNode,(String)bfsGoalNode);
 	}
 	
-	public int diameter() {
-	    int[] arrayShortestPaths=new int[this.adjacency.size()];
+	public String[] diameter() {
+	    String[][] arrayShortestPaths=new String[this.adjacency.size()][3];
 	    int i=0;
 	    for (String entree : this.adjacency.keySet()){
 		    String keyE = entree;
-		    arrayShortestPaths[i]=0;//Integer.MAX_VALUE
+		    arrayShortestPaths[i][0]=""+0;
+		    arrayShortestPaths[i][1]=keyE;
 		    for (String sortie:this.adjacency.keySet()){
 			    String keyS = sortie;
 			    if(keyE!=keyS) {
 				    int pathDistance = Graph.bfsShortestPath(this, keyE, keyS).size();
-				    if (arrayShortestPaths[i]<pathDistance)arrayShortestPaths[i]=pathDistance;
+				    if (Integer.parseInt(arrayShortestPaths[i][0])<pathDistance) {
+				    	arrayShortestPaths[i][0]=""+pathDistance;
+				    	arrayShortestPaths[i][2]=keyS;
+				    }
 			    }
 			}
 			i++;
 		}
 	    
-		//System.out.println(Arrays.toString(arrayShortestPaths));
-		int diameter=0;
-		for (int ShortestPath :arrayShortestPaths ) {
-			if (ShortestPath > diameter) diameter=ShortestPath;
+		String[] diameter= new String[3];
+		diameter[0]=""+0;
+		for (String[] ShortestPath :arrayShortestPaths ) {
+			if (Integer.parseInt(ShortestPath[0]) > Integer.parseInt(diameter[0])) diameter=ShortestPath;
 	    }
 		return diameter;
 	}
@@ -477,7 +404,7 @@ public  class Graph<V extends Comparable<V>> {
 	public static void main(String[] args) {
 		
 		// Calls processDigraph for Integer
-		processDigraph("Jacques-Bonsergent Metro 5", "Porte de Vanves Metro 13", "final3.txt");
+		processGraph("Jacques-Bonsergent Metro 5", "Nation Metro 1", "final3.txt");
 
 	}
 
