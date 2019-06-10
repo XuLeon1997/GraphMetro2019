@@ -29,13 +29,13 @@ import java.util.TreeMap;
  */
 public  class Graph<V extends Comparable<V>> {
 	
-	protected int n;
-	protected int m;
+	protected int nbVertex; // number of vertice
+	protected int nbEdges; // number of edge
 	public final Map<String, List<Edge<String>>> adjacency = new TreeMap<>();
 	
 	public Graph(int nbVertices, int nbEdges) {
-		this.n= nbVertices;
-		this.m = nbEdges;
+		this.nbVertex= nbVertices;
+		this.nbEdges = nbEdges;
 	}
 	
 	
@@ -50,28 +50,28 @@ public  class Graph<V extends Comparable<V>> {
 	 * Returns the order of the graph (i.e. the number of vertices) 
 	 */
 	public int order() {
-		return n;
+		return nbVertex;
 	}
 	
 	/**
 	 * Returns the size of the graph (i.e. the number of edges) 
 	 */
 	public int size() {
-		return m;
+		return nbEdges;
 	}
 
 
 	public void addEdge(String s, String t, double distance_travel) {
-		m++;		
+		nbEdges++;		
 		if(!adjacency.containsKey(s))
 			addVertex(s);
 		if(!adjacency.containsKey(t))
 			addVertex(t);
 		
 		List<Edge<String>> se = adjacency.get(s);
-		if(!se.contains(t)) se.add(new Edge<>(s,t,distance_travel));
+		if(!this.containsEdge(s, t)) se.add(new Edge<>(s,t,distance_travel));
 		List<Edge<String>> te = adjacency.get(t);
-		if(!te.contains(s)) te.add(new Edge<>(t,s,distance_travel));
+		if(!this.containsEdge(t, s)) te.add(new Edge<>(t,s,distance_travel));
 
 	}
 	/**
@@ -79,7 +79,7 @@ public  class Graph<V extends Comparable<V>> {
 	 * @param v
 	 */
 	public void addVertex(String v) {
-		n++;
+		nbVertex++;
 		adjacency.put(v, new LinkedList<>());
 		
 	}
@@ -94,6 +94,11 @@ public  class Graph<V extends Comparable<V>> {
 		return out;
 	}
 
+	public boolean containsEdge(String from, String to) {
+		for(Edge<String> edge : this.adjacency.get(from))
+			if(edge.to().equals(to)) return true;
+		return false;
+	}
 	
 	public List<Edge<String>> inEdges(String v) {
 		List<Edge<String>> out = new LinkedList<>();
@@ -367,7 +372,7 @@ public  class Graph<V extends Comparable<V>> {
 		// TODO: call GraphFactory.createDiGraphFromTextFileAuto and assignt to a
 		// generic Graph type
 		// An unchecked type cast is needed.
-		Graph<V>  g = (Graph<V> ) GraphFactory.createDiGraphFromTextFileAuto(filename);
+		Graph<V>  g = (Graph<V> ) GraphFactory.createGraphFromTextFileAuto(filename);
 
 		System.out.println("Graph structure: (node -> [<out_neighgbor>])");
 		for (String  vertex : g.vertices()) {
@@ -472,7 +477,7 @@ public  class Graph<V extends Comparable<V>> {
 	public static void main(String[] args) {
 		
 		// Calls processDigraph for Integer
-		processDigraph("Corentin-Cariou Metro 7", "Porte de Vanves Metro 13", "final3.txt");
+		processDigraph("Jacques-Bonsergent Metro 5", "Porte de Vanves Metro 13", "final3.txt");
 
 	}
 

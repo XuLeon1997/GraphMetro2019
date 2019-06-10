@@ -46,9 +46,8 @@ public class DijkstraTreeSet {
 		
 		// Creates a new pair (class SimpleEntry) of (distance, vertex) for the sourceVertex
 		//
-		// TODO: Add generic type parameter. Can be found from constructor parameters (see line 120)
+		// Add generic type parameter
 		SimpleEntry<Double, String> p0 = new SimpleEntry<Double, String>((double) 0, sourceVertex);
-		System.out.println("p0 :	"+p0.toString());
 		// Adds the pair to the treeSet
 		
 		treeSet.add(p0);
@@ -65,8 +64,6 @@ public class DijkstraTreeSet {
 			//
 			// TODO: Remove the explicit type cast if not required
 			String extractedVertex = extractedPair.getValue();
-//			System.out.println("	treeSet before loop:	" +treeSet);
-//			System.out.println("	extractedVertex :	" +extractedVertex);
 			// Only if the extracted vertex is in the unvisited set do the rest ...
 			if (unvisitedVertices.contains(extractedVertex)) {
 				// Removes the extracted vertex from the unvisited set (i.e. mark it as
@@ -107,26 +104,9 @@ public class DijkstraTreeSet {
 							// Creates a new pair (SimpleEntry object) for (newDistance, destination)
 							//
 							// TODO: Add generic type parameter. Can be found from usage (see line 180)
-							
 							SimpleEntry<Double, String> p = new SimpleEntry<Double, String>(newDistance, destination);
-						
-//							// Adds the pair object to the treeSet
-
-							
-//							System.out.println("				treeSet before add:	" +treeSet);
-//							System.out.println("				p:	"+p);
-							
-							if(!treeSet.add(p)) {
-								System.out.println(false);
-								System.out.println("destination :	" +destination);
-							}
-//							System.out.println("				treeSet after  add:	" +treeSet);
-							
-//							Double currentDistance2 = distances.get(destination);
-//							SimpleEntry<Double, String> p2 = new SimpleEntry<Double, String>(distances.get(destination), destination);
-//							treeSet.add(p);
-							// Updates the distance HashMap for the destination vertex to the
-							// newDistance
+							// Adds the pair object to the treeSet
+							treeSet.add(p);
 							distances.put(destination, newDistance);
 						}
 					}
@@ -134,9 +114,6 @@ public class DijkstraTreeSet {
 				}
 			}
 		}
-
-		
-		
 		
 		// print Shortest Path Tree
 		printDijkstra(g, distances, sourceVertex);
@@ -153,15 +130,15 @@ public class DijkstraTreeSet {
 		for (String vertice : g.adjacency.keySet()) {
 			
 			if(distances.get(vertice)==Double.MAX_VALUE){
-				System.out.println(j++ +"	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: infini");
+				j++;
 				parcouru=false;
+				System.out.println(j+"	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: infini");
 			}else {
 //				System.out.println(i++ +" :	Source Vertex: " + sourceVertex + " to vertex " + vertice + " distance: " + distances.get(vertice) +"Km");
 			}
 		}
-		System.out.println("Tout parcouru : "+parcouru);
-		
-		//System.out.println(Double.MAX_VALUE);
+		System.out.print("Tout parcouru : "+parcouru);
+		if(!parcouru)System.out.println("		<"+j+" stations non calculee>");
 	}
 	private static void printDijkstraDistance(Graph<String> g, Map<String, Double> distances, String sourceVertex, String destinationVertex) {
 		//System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
@@ -169,10 +146,9 @@ public class DijkstraTreeSet {
 		System.out.println("	Source Vertex: " + sourceVertex + " to vertex " + destinationVertex + " distance: "+distances.get(destinationVertex)+"Km");
 		List<String>  bfsList = Graph.bfsShortestPath(g , sourceVertex, destinationVertex);
 		for(String parcourVertice:bfsList) {
-			System.out.println(parcourVertice+ " distance: "+distances.get(parcourVertice)+"Km");
+			System.out.println(parcourVertice+ "		distance:	"+distances.get(parcourVertice)+"Km");
 		}
 	}
-	
 	
 	// TODO: Add Generic types to "Comparator". The type being compared can be found by looking at the usage of this class (see line 111)
 	static class PairComparator implements Comparator<SimpleEntry<Double, String>> {
